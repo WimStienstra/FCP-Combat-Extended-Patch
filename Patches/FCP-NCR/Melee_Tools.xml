@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.NCR">
+		<xpath>Defs/ThingDef[defName="FCP_Gun_Ranger_Ricks_Big_Iron_Revolver"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>grip</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>11</power>
+					<cooldownTime>1.6</cooldownTime>
+					<armorPenetrationBlunt>3.63</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>barrel</label>
+					<capacities><li>Blunt</li><li>Poke</li></capacities>
+					<power>12</power>
+					<cooldownTime>1.6</cooldownTime>
+					<armorPenetrationSharp>1.09</armorPenetrationSharp>
+					<armorPenetrationBlunt>3.96</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.NCR">
+		<xpath>Defs/ThingDef[defName="FCP_Gun_Service_Rifle"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>stock</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>9</power>
+					<cooldownTime>2</cooldownTime>
+					<armorPenetrationBlunt>2.97</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>barrel</label>
+					<capacities><li>Blunt</li><li>Poke</li></capacities>
+					<power>9</power>
+					<cooldownTime>2</cooldownTime>
+					<armorPenetrationSharp>0.82</armorPenetrationSharp>
+					<armorPenetrationBlunt>2.97</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.NCR">
+		<xpath>Defs/ThingDef[defName="FCP_Gun_Ranger_Sequoia"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>grip</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>9</power>
+					<cooldownTime>2</cooldownTime>
+					<armorPenetrationBlunt>2.97</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>barrel</label>
+					<capacities><li>Blunt</li><li>Poke</li></capacities>
+					<power>9</power>
+					<cooldownTime>2</cooldownTime>
+					<armorPenetrationSharp>0.82</armorPenetrationSharp>
+					<armorPenetrationBlunt>2.97</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.NCR">
+		<xpath>Defs/ThingDef[defName="FCP_Gun_NCR_Hunting_Rifle"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>stock</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>9</power>
+					<cooldownTime>2</cooldownTime>
+					<armorPenetrationBlunt>2.97</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>barrel</label>
+					<capacities><li>Blunt</li><li>Poke</li></capacities>
+					<power>9</power>
+					<cooldownTime>2</cooldownTime>
+					<armorPenetrationSharp>0.82</armorPenetrationSharp>
+					<armorPenetrationBlunt>2.97</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+</Patch>

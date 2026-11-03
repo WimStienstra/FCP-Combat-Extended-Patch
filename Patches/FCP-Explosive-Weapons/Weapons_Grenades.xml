@@ -1,0 +1,1288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationRemove" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Grenade_Fragmentation"]/verbs/li[verbClass="FCP.Core.Verb_LaunchProjectileConsumable"]</xpath>
+	</Operation>
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<defName>FCP_Grenade_Fragmentation</defName>
+		<statBases>
+			<Bulk>0.85</Bulk>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.0</SightsEfficiency>
+		</statBases>
+		<Properties>
+			<label>throw frag grenade</label>
+			<verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<range>10.32</range>
+			<minRange>4</minRange>
+			<warmupTime>0.9</warmupTime>
+			<noiseRadius>4</noiseRadius>
+			<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+			<soundCast>ThrowGrenade</soundCast>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+			<defaultProjectile>FCP_Proj_Grenade_Fragmentation</defaultProjectile>
+			<onlyManualCast>true</onlyManualCast>
+			<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+			<ai_AvoidFriendlyFireRadius>7</ai_AvoidFriendlyFireRadius>
+			<minRangeInCover>2</minRangeInCover>
+		</Properties>
+		<weaponTags>
+			<li>CE_AI_Grenade</li>
+			<li>CE_AI_AOE</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Grenade_Plasma"]/verbs/li[verbClass="FCP.Core.Verb_LaunchProjectileConsumable"]</xpath>
+	</Operation>
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<defName>FCP_Grenade_Plasma</defName>
+		<statBases>
+			<Bulk>0.68</Bulk>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.0</SightsEfficiency>
+		</statBases>
+		<Properties>
+			<label>throw plasma grenade</label>
+			<verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<range>10.32</range>
+			<minRange>4</minRange>
+			<warmupTime>0.9</warmupTime>
+			<noiseRadius>4</noiseRadius>
+			<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+			<soundCast>ThrowGrenade</soundCast>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+			<defaultProjectile>FCP_Proj_Grenade_Plasma</defaultProjectile>
+			<onlyManualCast>true</onlyManualCast>
+			<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+			<ai_AvoidFriendlyFireRadius>7</ai_AvoidFriendlyFireRadius>
+			<minRangeInCover>2</minRangeInCover>
+		</Properties>
+		<weaponTags>
+			<li>CE_AI_Grenade</li>
+			<li>CE_AI_AOE</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Grenade_Pulse"]/verbs/li[verbClass="FCP.Core.Verb_LaunchProjectileConsumable"]</xpath>
+	</Operation>
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<defName>FCP_Grenade_Pulse</defName>
+		<statBases>
+			<Bulk>1.02</Bulk>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.0</SightsEfficiency>
+		</statBases>
+		<Properties>
+			<label>throw pulse grenade</label>
+			<verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<range>10.32</range>
+			<minRange>4</minRange>
+			<warmupTime>0.9</warmupTime>
+			<noiseRadius>4</noiseRadius>
+			<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+			<soundCast>ThrowGrenade</soundCast>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+			<defaultProjectile>FCP_Proj_Grenade_Pulse</defaultProjectile>
+			<onlyManualCast>true</onlyManualCast>
+			<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+			<ai_AvoidFriendlyFireRadius>7</ai_AvoidFriendlyFireRadius>
+			<minRangeInCover>2</minRangeInCover>
+		</Properties>
+		<weaponTags>
+			<li>CE_AI_Grenade</li>
+			<li>CE_AI_AOE</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Grenade_Cryo"]/verbs/li[verbClass="FCP.Core.Verb_LaunchProjectileConsumable"]</xpath>
+	</Operation>
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<defName>FCP_Grenade_Cryo</defName>
+		<statBases>
+			<Bulk>1.19</Bulk>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.0</SightsEfficiency>
+		</statBases>
+		<Properties>
+			<label>throw cryo grenade</label>
+			<verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<range>10.32</range>
+			<minRange>4</minRange>
+			<warmupTime>0.9</warmupTime>
+			<noiseRadius>4</noiseRadius>
+			<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+			<soundCast>ThrowGrenade</soundCast>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+			<defaultProjectile>FCP_Proj_Grenade_Cryo</defaultProjectile>
+			<onlyManualCast>true</onlyManualCast>
+			<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+			<ai_AvoidFriendlyFireRadius>7</ai_AvoidFriendlyFireRadius>
+			<minRangeInCover>2</minRangeInCover>
+		</Properties>
+		<weaponTags>
+			<li>CE_AI_Grenade</li>
+			<li>CE_AI_AOE</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Grenade_Nuka"]/verbs/li[verbClass="FCP.Core.Verb_LaunchProjectileConsumable"]</xpath>
+	</Operation>
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<defName>FCP_Grenade_Nuka</defName>
+		<statBases>
+			<Bulk>1.36</Bulk>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.0</SightsEfficiency>
+		</statBases>
+		<Properties>
+			<label>throw nuka grenade</label>
+			<verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<range>10.32</range>
+			<minRange>4</minRange>
+			<warmupTime>0.9</warmupTime>
+			<noiseRadius>4</noiseRadius>
+			<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+			<soundCast>ThrowGrenade</soundCast>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+			<defaultProjectile>FCP_Proj_Grenade_Nuka</defaultProjectile>
+			<onlyManualCast>true</onlyManualCast>
+			<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+			<ai_AvoidFriendlyFireRadius>7</ai_AvoidFriendlyFireRadius>
+			<minRangeInCover>2</minRangeInCover>
+		</Properties>
+		<weaponTags>
+			<li>CE_AI_Grenade</li>
+			<li>CE_AI_AOE</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Grenade_Nuka_Quantum"]/verbs/li[verbClass="FCP.Core.Verb_LaunchProjectileConsumable"]</xpath>
+	</Operation>
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<defName>FCP_Grenade_Nuka_Quantum</defName>
+		<statBases>
+			<Bulk>1.36</Bulk>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.0</SightsEfficiency>
+		</statBases>
+		<Properties>
+			<label>throw nuka quantum grenade</label>
+			<verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<range>10.32</range>
+			<minRange>4</minRange>
+			<warmupTime>0.9</warmupTime>
+			<noiseRadius>4</noiseRadius>
+			<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+			<soundCast>ThrowGrenade</soundCast>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+			<defaultProjectile>FCP_Proj_Grenade_Nuka_Quantum</defaultProjectile>
+			<onlyManualCast>true</onlyManualCast>
+			<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+			<ai_AvoidFriendlyFireRadius>7</ai_AvoidFriendlyFireRadius>
+			<minRangeInCover>2</minRangeInCover>
+		</Properties>
+		<weaponTags>
+			<li>CE_AI_Grenade</li>
+			<li>CE_AI_AOE</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Grenade_Dynamite"]/verbs/li[verbClass="FCP.Core.Verb_LaunchProjectileConsumable"]</xpath>
+	</Operation>
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<defName>FCP_Grenade_Dynamite</defName>
+		<statBases>
+			<Bulk>1.02</Bulk>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.0</SightsEfficiency>
+		</statBases>
+		<Properties>
+			<label>throw dynamite</label>
+			<verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<range>10.32</range>
+			<minRange>4</minRange>
+			<warmupTime>0.9</warmupTime>
+			<noiseRadius>4</noiseRadius>
+			<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+			<soundCast>ThrowGrenade</soundCast>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+			<defaultProjectile>FCP_Proj_Grenade_Dynamite</defaultProjectile>
+			<onlyManualCast>true</onlyManualCast>
+			<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+			<ai_AvoidFriendlyFireRadius>7</ai_AvoidFriendlyFireRadius>
+			<minRangeInCover>2</minRangeInCover>
+		</Properties>
+		<weaponTags>
+			<li>CE_AI_Grenade</li>
+			<li>CE_AI_AOE</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Grenade_Long_Fuse_Dynamite"]/verbs/li[verbClass="FCP.Core.Verb_LaunchProjectileConsumable"]</xpath>
+	</Operation>
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<defName>FCP_Grenade_Long_Fuse_Dynamite</defName>
+		<statBases>
+			<Bulk>1.19</Bulk>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.0</SightsEfficiency>
+		</statBases>
+		<Properties>
+			<label>throw long fuse dynamite</label>
+			<verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<range>10.32</range>
+			<minRange>4</minRange>
+			<warmupTime>0.9</warmupTime>
+			<noiseRadius>4</noiseRadius>
+			<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+			<soundCast>ThrowGrenade</soundCast>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+			<defaultProjectile>FCP_Proj_Grenade_Long_Fuse_Dynamite</defaultProjectile>
+			<onlyManualCast>true</onlyManualCast>
+			<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+			<ai_AvoidFriendlyFireRadius>7</ai_AvoidFriendlyFireRadius>
+			<minRangeInCover>2</minRangeInCover>
+		</Properties>
+		<weaponTags>
+			<li>CE_AI_Grenade</li>
+			<li>CE_AI_AOE</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Grenade_Bio_Gas"]/verbs/li[verbClass="FCP.Core.Verb_LaunchProjectileConsumable"]</xpath>
+	</Operation>
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<defName>FCP_Grenade_Bio_Gas</defName>
+		<statBases>
+			<Bulk>0.85</Bulk>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.0</SightsEfficiency>
+		</statBases>
+		<Properties>
+			<label>throw bio gas grenade</label>
+			<verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<range>10.32</range>
+			<minRange>4</minRange>
+			<warmupTime>0.9</warmupTime>
+			<noiseRadius>4</noiseRadius>
+			<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+			<soundCast>ThrowGrenade</soundCast>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+			<defaultProjectile>FCP_Proj_Grenade_Bio_Gas</defaultProjectile>
+			<onlyManualCast>true</onlyManualCast>
+			<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+			<ai_AvoidFriendlyFireRadius>7</ai_AvoidFriendlyFireRadius>
+			<minRangeInCover>2</minRangeInCover>
+		</Properties>
+		<weaponTags>
+			<li>CE_AI_Grenade</li>
+			<li>CE_AI_AOE</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Grenade_Hallucinogen_Gas"]/verbs/li[verbClass="FCP.Core.Verb_LaunchProjectileConsumable"]</xpath>
+	</Operation>
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<defName>FCP_Grenade_Hallucinogen_Gas</defName>
+		<statBases>
+			<Bulk>0.85</Bulk>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.0</SightsEfficiency>
+		</statBases>
+		<Properties>
+			<label>throw hallucinogen grenade</label>
+			<verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<range>10.32</range>
+			<minRange>4</minRange>
+			<warmupTime>0.9</warmupTime>
+			<noiseRadius>4</noiseRadius>
+			<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+			<soundCast>ThrowGrenade</soundCast>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+			<defaultProjectile>FCP_Proj_Grenade_Hallucinogen_Gas</defaultProjectile>
+			<onlyManualCast>true</onlyManualCast>
+			<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+			<ai_AvoidFriendlyFireRadius>7</ai_AvoidFriendlyFireRadius>
+			<minRangeInCover>2</minRangeInCover>
+		</Properties>
+		<weaponTags>
+			<li>CE_AI_Grenade</li>
+			<li>CE_AI_AOE</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Grenade_Smoke"]/verbs/li[verbClass="FCP.Core.Verb_LaunchProjectileConsumable"]</xpath>
+	</Operation>
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<defName>FCP_Grenade_Smoke</defName>
+		<statBases>
+			<Bulk>0.68</Bulk>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.0</SightsEfficiency>
+		</statBases>
+		<Properties>
+			<label>throw smoke grenade</label>
+			<verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<range>10.32</range>
+			<minRange>4</minRange>
+			<warmupTime>0.9</warmupTime>
+			<noiseRadius>4</noiseRadius>
+			<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+			<soundCast>ThrowGrenade</soundCast>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+			<defaultProjectile>FCP_Proj_Grenade_Smoke</defaultProjectile>
+			<onlyManualCast>true</onlyManualCast>
+			<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+			<ai_AvoidFriendlyFireRadius>7</ai_AvoidFriendlyFireRadius>
+			<minRangeInCover>2</minRangeInCover>
+		</Properties>
+		<weaponTags>
+			<li>CE_AI_Grenade</li>
+			<li>CE_AI_AOE</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Grenade_Flashbang"]/verbs/li[verbClass="FCP.Core.Verb_LaunchProjectileConsumable"]</xpath>
+	</Operation>
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<defName>FCP_Grenade_Flashbang</defName>
+		<statBases>
+			<Bulk>0.51</Bulk>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.0</SightsEfficiency>
+		</statBases>
+		<Properties>
+			<label>throw flashbang grenade</label>
+			<verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<range>10.32</range>
+			<minRange>4</minRange>
+			<warmupTime>0.9</warmupTime>
+			<noiseRadius>4</noiseRadius>
+			<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+			<soundCast>ThrowGrenade</soundCast>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+			<defaultProjectile>FCP_Proj_Grenade_Flashbang</defaultProjectile>
+			<onlyManualCast>true</onlyManualCast>
+			<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+			<ai_AvoidFriendlyFireRadius>7</ai_AvoidFriendlyFireRadius>
+			<minRangeInCover>2</minRangeInCover>
+		</Properties>
+		<weaponTags>
+			<li>CE_AI_Grenade</li>
+			<li>CE_AI_AOE</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Grenade_Acid"]/verbs/li[verbClass="FCP.Core.Verb_LaunchProjectileConsumable"]</xpath>
+	</Operation>
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<defName>FCP_Grenade_Acid</defName>
+		<statBases>
+			<Bulk>1.02</Bulk>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.0</SightsEfficiency>
+		</statBases>
+		<Properties>
+			<label>throw acid grenade</label>
+			<verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<range>10.32</range>
+			<minRange>4</minRange>
+			<warmupTime>0.9</warmupTime>
+			<noiseRadius>4</noiseRadius>
+			<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+			<soundCast>ThrowGrenade</soundCast>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+			<defaultProjectile>FCP_Proj_Grenade_Acid</defaultProjectile>
+			<onlyManualCast>true</onlyManualCast>
+			<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+			<ai_AvoidFriendlyFireRadius>7</ai_AvoidFriendlyFireRadius>
+			<minRangeInCover>2</minRangeInCover>
+		</Properties>
+		<weaponTags>
+			<li>CE_AI_Grenade</li>
+			<li>CE_AI_AOE</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Grenade_Tincan"]/verbs/li[verbClass="FCP.Core.Verb_LaunchProjectileConsumable"]</xpath>
+	</Operation>
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<defName>FCP_Grenade_Tincan</defName>
+		<statBases>
+			<Bulk>1.02</Bulk>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.0</SightsEfficiency>
+		</statBases>
+		<Properties>
+			<label>throw tincan grenade</label>
+			<verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<range>10.32</range>
+			<minRange>4</minRange>
+			<warmupTime>0.9</warmupTime>
+			<noiseRadius>4</noiseRadius>
+			<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+			<soundCast>ThrowGrenade</soundCast>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+			<defaultProjectile>FCP_Proj_Grenade_Tincan</defaultProjectile>
+			<onlyManualCast>true</onlyManualCast>
+			<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+			<ai_AvoidFriendlyFireRadius>7</ai_AvoidFriendlyFireRadius>
+			<minRangeInCover>2</minRangeInCover>
+		</Properties>
+		<weaponTags>
+			<li>CE_AI_Grenade</li>
+			<li>CE_AI_AOE</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Grenade_Piggybank"]/verbs/li[verbClass="FCP.Core.Verb_LaunchProjectileConsumable"]</xpath>
+	</Operation>
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<defName>FCP_Grenade_Piggybank</defName>
+		<statBases>
+			<Bulk>1.36</Bulk>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.0</SightsEfficiency>
+		</statBases>
+		<Properties>
+			<label>throw piggybank grenade</label>
+			<verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<range>10.32</range>
+			<minRange>4</minRange>
+			<warmupTime>0.9</warmupTime>
+			<noiseRadius>4</noiseRadius>
+			<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+			<soundCast>ThrowGrenade</soundCast>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+			<defaultProjectile>FCP_Proj_Grenade_Piggybank</defaultProjectile>
+			<onlyManualCast>true</onlyManualCast>
+			<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+			<ai_AvoidFriendlyFireRadius>7</ai_AvoidFriendlyFireRadius>
+			<minRangeInCover>2</minRangeInCover>
+		</Properties>
+		<weaponTags>
+			<li>CE_AI_Grenade</li>
+			<li>CE_AI_AOE</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Grenade_Pipebomb"]/verbs/li[verbClass="FCP.Core.Verb_LaunchProjectileConsumable"]</xpath>
+	</Operation>
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<defName>FCP_Grenade_Pipebomb</defName>
+		<statBases>
+			<Bulk>1.19</Bulk>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.0</SightsEfficiency>
+		</statBases>
+		<Properties>
+			<label>throw pipebomb</label>
+			<verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<range>10.32</range>
+			<minRange>4</minRange>
+			<warmupTime>0.9</warmupTime>
+			<noiseRadius>4</noiseRadius>
+			<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+			<soundCast>ThrowGrenade</soundCast>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+			<defaultProjectile>FCP_Proj_Grenade_Pipebomb</defaultProjectile>
+			<onlyManualCast>true</onlyManualCast>
+			<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+			<ai_AvoidFriendlyFireRadius>7</ai_AvoidFriendlyFireRadius>
+			<minRangeInCover>2</minRangeInCover>
+		</Properties>
+		<weaponTags>
+			<li>CE_AI_Grenade</li>
+			<li>CE_AI_AOE</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Grenade_Baseball"]/verbs/li[verbClass="FCP.Core.Verb_LaunchProjectileConsumable"]</xpath>
+	</Operation>
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<defName>FCP_Grenade_Baseball</defName>
+		<statBases>
+			<Bulk>0.68</Bulk>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.0</SightsEfficiency>
+		</statBases>
+		<Properties>
+			<label>throw baseball grenade</label>
+			<verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<range>10.8</range>
+			<minRange>4</minRange>
+			<warmupTime>0.8</warmupTime>
+			<noiseRadius>4</noiseRadius>
+			<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+			<soundCast>ThrowGrenade</soundCast>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+			<defaultProjectile>FCP_Proj_Grenade_Baseball</defaultProjectile>
+			<onlyManualCast>true</onlyManualCast>
+			<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+			<ai_AvoidFriendlyFireRadius>7</ai_AvoidFriendlyFireRadius>
+			<minRangeInCover>2</minRangeInCover>
+		</Properties>
+		<weaponTags>
+			<li>CE_AI_Grenade</li>
+			<li>CE_AI_AOE</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Grenade_MFC"]/verbs/li[verbClass="FCP.Core.Verb_LaunchProjectileConsumable"]</xpath>
+	</Operation>
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<defName>FCP_Grenade_MFC</defName>
+		<statBases>
+			<Bulk>0.51</Bulk>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.0</SightsEfficiency>
+		</statBases>
+		<Properties>
+			<label>throw MFC grenade</label>
+			<verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<range>10.32</range>
+			<minRange>4</minRange>
+			<warmupTime>0.9</warmupTime>
+			<noiseRadius>4</noiseRadius>
+			<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+			<soundCast>ThrowGrenade</soundCast>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+			<defaultProjectile>FCP_Proj_Grenade_MFC</defaultProjectile>
+			<onlyManualCast>true</onlyManualCast>
+			<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+			<ai_AvoidFriendlyFireRadius>7</ai_AvoidFriendlyFireRadius>
+			<minRangeInCover>2</minRangeInCover>
+		</Properties>
+		<weaponTags>
+			<li>CE_AI_Grenade</li>
+			<li>CE_AI_AOE</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Grenade_Molotov_Cocktail"]/verbs/li[verbClass="FCP.Core.Verb_LaunchProjectileConsumable"]</xpath>
+	</Operation>
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<defName>FCP_Grenade_Molotov_Cocktail</defName>
+		<statBases>
+			<Bulk>0.85</Bulk>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.0</SightsEfficiency>
+		</statBases>
+		<Properties>
+			<label>throw molotov</label>
+			<verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<range>10.32</range>
+			<minRange>4</minRange>
+			<warmupTime>0.9</warmupTime>
+			<noiseRadius>4</noiseRadius>
+			<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+			<soundCast>ThrowGrenade</soundCast>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+			<defaultProjectile>FCP_Proj_Grenade_Molotov_Cocktail</defaultProjectile>
+			<onlyManualCast>true</onlyManualCast>
+			<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+			<ai_AvoidFriendlyFireRadius>7</ai_AvoidFriendlyFireRadius>
+			<minRangeInCover>2</minRangeInCover>
+		</Properties>
+		<weaponTags>
+			<li>CE_AI_Grenade</li>
+			<li>CE_AI_AOE</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Grenade_Mininuke"]/verbs/li[verbClass="FCP.Core.Verb_LaunchProjectileConsumable"]</xpath>
+	</Operation>
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<defName>FCP_Grenade_Mininuke</defName>
+		<statBases>
+			<Bulk>4.25</Bulk>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.0</SightsEfficiency>
+		</statBases>
+		<Properties>
+			<label>throw mininuke</label>
+			<verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<range>8.72</range>
+			<minRange>4</minRange>
+			<warmupTime>1.5</warmupTime>
+			<noiseRadius>4</noiseRadius>
+			<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+			<soundCast>ThrowGrenade</soundCast>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+			<defaultProjectile>FCP_Proj_Grenade_Mininuke</defaultProjectile>
+			<onlyManualCast>true</onlyManualCast>
+			<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+			<ai_AvoidFriendlyFireRadius>7</ai_AvoidFriendlyFireRadius>
+			<minRangeInCover>2</minRangeInCover>
+		</Properties>
+		<weaponTags>
+			<li>CE_AI_Grenade</li>
+			<li>CE_AI_AOE</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Grenade_Boombug"]/verbs/li[verbClass="FCP.Core.Verb_LaunchProjectileConsumable"]</xpath>
+	</Operation>
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<defName>FCP_Grenade_Boombug</defName>
+		<statBases>
+			<Bulk>0.68</Bulk>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.0</SightsEfficiency>
+		</statBases>
+		<Properties>
+			<label>throw boombug grenade</label>
+			<verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<range>10.32</range>
+			<minRange>4</minRange>
+			<warmupTime>0.9</warmupTime>
+			<noiseRadius>4</noiseRadius>
+			<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+			<soundCast>ThrowGrenade</soundCast>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+			<defaultProjectile>FCP_Proj_Grenade_Boombug</defaultProjectile>
+			<onlyManualCast>true</onlyManualCast>
+			<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+			<ai_AvoidFriendlyFireRadius>7</ai_AvoidFriendlyFireRadius>
+			<minRangeInCover>2</minRangeInCover>
+		</Properties>
+		<weaponTags>
+			<li>CE_AI_Grenade</li>
+			<li>CE_AI_AOE</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Grenade_Holy_Hand_Grenade"]/verbs/li[verbClass="FCP.Core.Verb_LaunchProjectileConsumable"]</xpath>
+	</Operation>
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<defName>FCP_Grenade_Holy_Hand_Grenade</defName>
+		<statBases>
+			<Bulk>1.7</Bulk>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.0</SightsEfficiency>
+		</statBases>
+		<Properties>
+			<label>throw Holy Hand Grenade</label>
+			<verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<range>10.32</range>
+			<minRange>4</minRange>
+			<warmupTime>1.8</warmupTime>
+			<noiseRadius>4</noiseRadius>
+			<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+			<soundCast>ThrowGrenade</soundCast>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+			<defaultProjectile>FCP_Proj_Grenade_Holy_Hand_Grenade</defaultProjectile>
+			<onlyManualCast>true</onlyManualCast>
+			<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+			<ai_AvoidFriendlyFireRadius>7</ai_AvoidFriendlyFireRadius>
+			<minRangeInCover>2</minRangeInCover>
+		</Properties>
+		<weaponTags>
+			<li>CE_AI_Grenade</li>
+			<li>CE_AI_AOE</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationAttributeSet" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Fragmentation"]/projectile</xpath>
+		<attribute>Class</attribute>
+		<value>CombatExtended.ProjectilePropertiesCE</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Fragmentation"]/thingClass</xpath>
+		<value><thingClass>CombatExtended.ProjectileCE_Explosive</thingClass></value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Fragmentation"]/projectile</xpath>
+		<value>
+			<explosionDamageFalloff>true</explosionDamageFalloff>
+			<suppressionFactor>3.0</suppressionFactor>
+			<dangerFactor>2.0</dangerFactor>
+			<airborneSuppressionFactor>0.25</airborneSuppressionFactor>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationConditional" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Fragmentation"]/comps</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Fragmentation"]/comps</xpath>
+			<value><li Class="CombatExtended.CompProperties_Fragments"><fragments><Fragment_Small>36</Fragment_Small></fragments></li></value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Fragmentation"]</xpath>
+			<value><comps><li Class="CombatExtended.CompProperties_Fragments"><fragments><Fragment_Small>36</Fragment_Small></fragments></li></comps></value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationAttributeSet" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Plasma"]/projectile</xpath>
+		<attribute>Class</attribute>
+		<value>CombatExtended.ProjectilePropertiesCE</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Plasma"]</xpath>
+		<value><thingClass>CombatExtended.ProjectileCE_Explosive</thingClass></value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Plasma"]/projectile</xpath>
+		<value>
+			<explosionDamageFalloff>true</explosionDamageFalloff>
+			<suppressionFactor>3.0</suppressionFactor>
+			<dangerFactor>2.0</dangerFactor>
+			<airborneSuppressionFactor>0.25</airborneSuppressionFactor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAttributeSet" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Pulse"]/projectile</xpath>
+		<attribute>Class</attribute>
+		<value>CombatExtended.ProjectilePropertiesCE</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Pulse"]</xpath>
+		<value><thingClass>CombatExtended.ProjectileCE_Explosive</thingClass></value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Pulse"]/projectile</xpath>
+		<value>
+			<explosionDamageFalloff>true</explosionDamageFalloff>
+			<suppressionFactor>3.0</suppressionFactor>
+			<dangerFactor>2.0</dangerFactor>
+			<airborneSuppressionFactor>0.25</airborneSuppressionFactor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAttributeSet" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Cryo"]/projectile</xpath>
+		<attribute>Class</attribute>
+		<value>CombatExtended.ProjectilePropertiesCE</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Cryo"]</xpath>
+		<value><thingClass>CombatExtended.ProjectileCE_Explosive</thingClass></value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Cryo"]/projectile</xpath>
+		<value>
+			<explosionDamageFalloff>true</explosionDamageFalloff>
+			<suppressionFactor>3.0</suppressionFactor>
+			<dangerFactor>2.0</dangerFactor>
+			<airborneSuppressionFactor>0.25</airborneSuppressionFactor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAttributeSet" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Nuka"]/projectile</xpath>
+		<attribute>Class</attribute>
+		<value>CombatExtended.ProjectilePropertiesCE</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Nuka"]</xpath>
+		<value><thingClass>CombatExtended.ProjectileCE_Explosive</thingClass></value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Nuka"]/projectile</xpath>
+		<value>
+			<explosionDamageFalloff>true</explosionDamageFalloff>
+			<suppressionFactor>3.0</suppressionFactor>
+			<dangerFactor>2.0</dangerFactor>
+			<airborneSuppressionFactor>0.25</airborneSuppressionFactor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAttributeSet" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Nuka_Quantum"]/projectile</xpath>
+		<attribute>Class</attribute>
+		<value>CombatExtended.ProjectilePropertiesCE</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Nuka_Quantum"]</xpath>
+		<value><thingClass>CombatExtended.ProjectileCE_Explosive</thingClass></value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Nuka_Quantum"]/projectile</xpath>
+		<value>
+			<explosionDamageFalloff>true</explosionDamageFalloff>
+			<suppressionFactor>3.0</suppressionFactor>
+			<dangerFactor>2.0</dangerFactor>
+			<airborneSuppressionFactor>0.25</airborneSuppressionFactor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAttributeSet" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Dynamite"]/projectile</xpath>
+		<attribute>Class</attribute>
+		<value>CombatExtended.ProjectilePropertiesCE</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Dynamite"]</xpath>
+		<value><thingClass>CombatExtended.ProjectileCE_Explosive</thingClass></value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Dynamite"]/projectile</xpath>
+		<value>
+			<explosionDamageFalloff>true</explosionDamageFalloff>
+			<suppressionFactor>3.0</suppressionFactor>
+			<dangerFactor>2.0</dangerFactor>
+			<airborneSuppressionFactor>0.25</airborneSuppressionFactor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAttributeSet" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Long_Fuse_Dynamite"]/projectile</xpath>
+		<attribute>Class</attribute>
+		<value>CombatExtended.ProjectilePropertiesCE</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Long_Fuse_Dynamite"]</xpath>
+		<value><thingClass>CombatExtended.ProjectileCE_Explosive</thingClass></value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Long_Fuse_Dynamite"]/projectile</xpath>
+		<value>
+			<explosionDamageFalloff>true</explosionDamageFalloff>
+			<suppressionFactor>3.0</suppressionFactor>
+			<dangerFactor>2.0</dangerFactor>
+			<airborneSuppressionFactor>0.25</airborneSuppressionFactor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAttributeSet" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Bio_Gas"]/projectile</xpath>
+		<attribute>Class</attribute>
+		<value>CombatExtended.ProjectilePropertiesCE</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Bio_Gas"]</xpath>
+		<value><thingClass>CombatExtended.ProjectileCE_Explosive</thingClass></value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Bio_Gas"]/projectile</xpath>
+		<value>
+			<explosionDamageFalloff>true</explosionDamageFalloff>
+			<suppressionFactor>3.0</suppressionFactor>
+			<dangerFactor>2.0</dangerFactor>
+			<airborneSuppressionFactor>0.25</airborneSuppressionFactor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAttributeSet" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Hallucinogen_Gas"]/projectile</xpath>
+		<attribute>Class</attribute>
+		<value>CombatExtended.ProjectilePropertiesCE</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Hallucinogen_Gas"]</xpath>
+		<value><thingClass>CombatExtended.ProjectileCE_Explosive</thingClass></value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Hallucinogen_Gas"]/projectile</xpath>
+		<value>
+			<explosionDamageFalloff>true</explosionDamageFalloff>
+			<suppressionFactor>3.0</suppressionFactor>
+			<dangerFactor>2.0</dangerFactor>
+			<airborneSuppressionFactor>0.25</airborneSuppressionFactor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAttributeSet" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Smoke"]/projectile</xpath>
+		<attribute>Class</attribute>
+		<value>CombatExtended.ProjectilePropertiesCE</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Smoke"]</xpath>
+		<value><thingClass>CombatExtended.ProjectileCE_Explosive</thingClass></value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Smoke"]/projectile</xpath>
+		<value>
+			<explosionDamageFalloff>true</explosionDamageFalloff>
+			<suppressionFactor>3.0</suppressionFactor>
+			<dangerFactor>2.0</dangerFactor>
+			<airborneSuppressionFactor>0.25</airborneSuppressionFactor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAttributeSet" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Flashbang"]/projectile</xpath>
+		<attribute>Class</attribute>
+		<value>CombatExtended.ProjectilePropertiesCE</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Flashbang"]</xpath>
+		<value><thingClass>CombatExtended.ProjectileCE_Explosive</thingClass></value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Flashbang"]/projectile</xpath>
+		<value>
+			<explosionDamageFalloff>true</explosionDamageFalloff>
+			<suppressionFactor>3.0</suppressionFactor>
+			<dangerFactor>2.0</dangerFactor>
+			<airborneSuppressionFactor>0.25</airborneSuppressionFactor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAttributeSet" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Acid"]/projectile</xpath>
+		<attribute>Class</attribute>
+		<value>CombatExtended.ProjectilePropertiesCE</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Acid"]</xpath>
+		<value><thingClass>CombatExtended.ProjectileCE_Explosive</thingClass></value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Acid"]/projectile</xpath>
+		<value>
+			<explosionDamageFalloff>true</explosionDamageFalloff>
+			<suppressionFactor>3.0</suppressionFactor>
+			<dangerFactor>2.0</dangerFactor>
+			<airborneSuppressionFactor>0.25</airborneSuppressionFactor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAttributeSet" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Tincan"]/projectile</xpath>
+		<attribute>Class</attribute>
+		<value>CombatExtended.ProjectilePropertiesCE</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Tincan"]/thingClass</xpath>
+		<value><thingClass>CombatExtended.ProjectileCE_Explosive</thingClass></value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Tincan"]/projectile</xpath>
+		<value>
+			<explosionDamageFalloff>true</explosionDamageFalloff>
+			<suppressionFactor>3.0</suppressionFactor>
+			<dangerFactor>2.0</dangerFactor>
+			<airborneSuppressionFactor>0.25</airborneSuppressionFactor>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationConditional" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Tincan"]/comps</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Tincan"]/comps</xpath>
+			<value><li Class="CombatExtended.CompProperties_Fragments"><fragments><Fragment_Small>24</Fragment_Small></fragments></li></value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Tincan"]</xpath>
+			<value><comps><li Class="CombatExtended.CompProperties_Fragments"><fragments><Fragment_Small>24</Fragment_Small></fragments></li></comps></value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationAttributeSet" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Piggybank"]/projectile</xpath>
+		<attribute>Class</attribute>
+		<value>CombatExtended.ProjectilePropertiesCE</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Piggybank"]/thingClass</xpath>
+		<value><thingClass>CombatExtended.ProjectileCE_Explosive</thingClass></value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Piggybank"]/projectile</xpath>
+		<value>
+			<explosionDamageFalloff>true</explosionDamageFalloff>
+			<suppressionFactor>3.0</suppressionFactor>
+			<dangerFactor>2.0</dangerFactor>
+			<airborneSuppressionFactor>0.25</airborneSuppressionFactor>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationConditional" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Piggybank"]/comps</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Piggybank"]/comps</xpath>
+			<value><li Class="CombatExtended.CompProperties_Fragments"><fragments><Fragment_Small>45</Fragment_Small></fragments></li></value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Piggybank"]</xpath>
+			<value><comps><li Class="CombatExtended.CompProperties_Fragments"><fragments><Fragment_Small>45</Fragment_Small></fragments></li></comps></value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationAttributeSet" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Pipebomb"]/projectile</xpath>
+		<attribute>Class</attribute>
+		<value>CombatExtended.ProjectilePropertiesCE</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Pipebomb"]/thingClass</xpath>
+		<value><thingClass>CombatExtended.ProjectileCE_Explosive</thingClass></value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Pipebomb"]/projectile</xpath>
+		<value>
+			<explosionDamageFalloff>true</explosionDamageFalloff>
+			<suppressionFactor>3.0</suppressionFactor>
+			<dangerFactor>2.0</dangerFactor>
+			<airborneSuppressionFactor>0.25</airborneSuppressionFactor>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationConditional" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Pipebomb"]/comps</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Pipebomb"]/comps</xpath>
+			<value><li Class="CombatExtended.CompProperties_Fragments"><fragments><Fragment_Small>30</Fragment_Small></fragments></li></value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Pipebomb"]</xpath>
+			<value><comps><li Class="CombatExtended.CompProperties_Fragments"><fragments><Fragment_Small>30</Fragment_Small></fragments></li></comps></value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationAttributeSet" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Baseball"]/projectile</xpath>
+		<attribute>Class</attribute>
+		<value>CombatExtended.ProjectilePropertiesCE</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Baseball"]/thingClass</xpath>
+		<value><thingClass>CombatExtended.ProjectileCE_Explosive</thingClass></value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Baseball"]/projectile</xpath>
+		<value>
+			<explosionDamageFalloff>true</explosionDamageFalloff>
+			<suppressionFactor>3.0</suppressionFactor>
+			<dangerFactor>2.0</dangerFactor>
+			<airborneSuppressionFactor>0.25</airborneSuppressionFactor>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationConditional" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Baseball"]/comps</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Baseball"]/comps</xpath>
+			<value><li Class="CombatExtended.CompProperties_Fragments"><fragments><Fragment_Small>54</Fragment_Small></fragments></li></value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Baseball"]</xpath>
+			<value><comps><li Class="CombatExtended.CompProperties_Fragments"><fragments><Fragment_Small>54</Fragment_Small></fragments></li></comps></value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationAttributeSet" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_MFC"]/projectile</xpath>
+		<attribute>Class</attribute>
+		<value>CombatExtended.ProjectilePropertiesCE</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_MFC"]</xpath>
+		<value><thingClass>CombatExtended.ProjectileCE_Explosive</thingClass></value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_MFC"]/projectile</xpath>
+		<value>
+			<explosionDamageFalloff>true</explosionDamageFalloff>
+			<suppressionFactor>3.0</suppressionFactor>
+			<dangerFactor>2.0</dangerFactor>
+			<airborneSuppressionFactor>0.25</airborneSuppressionFactor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAttributeSet" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Molotov_Cocktail"]/projectile</xpath>
+		<attribute>Class</attribute>
+		<value>CombatExtended.ProjectilePropertiesCE</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Molotov_Cocktail"]</xpath>
+		<value><thingClass>CombatExtended.ProjectileCE_Explosive</thingClass></value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Molotov_Cocktail"]/projectile</xpath>
+		<value>
+			<explosionDamageFalloff>true</explosionDamageFalloff>
+			<suppressionFactor>3.0</suppressionFactor>
+			<dangerFactor>2.0</dangerFactor>
+			<airborneSuppressionFactor>0.25</airborneSuppressionFactor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAttributeSet" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Mininuke"]/projectile</xpath>
+		<attribute>Class</attribute>
+		<value>CombatExtended.ProjectilePropertiesCE</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Mininuke"]</xpath>
+		<value><thingClass>CombatExtended.ProjectileCE_Explosive</thingClass></value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Mininuke"]/projectile</xpath>
+		<value>
+			<explosionDamageFalloff>true</explosionDamageFalloff>
+			<suppressionFactor>3.0</suppressionFactor>
+			<dangerFactor>2.0</dangerFactor>
+			<airborneSuppressionFactor>0.25</airborneSuppressionFactor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAttributeSet" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Boombug"]/projectile</xpath>
+		<attribute>Class</attribute>
+		<value>CombatExtended.ProjectilePropertiesCE</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Boombug"]</xpath>
+		<value><thingClass>CombatExtended.ProjectileCE_Explosive</thingClass></value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Boombug"]/projectile</xpath>
+		<value>
+			<explosionDamageFalloff>true</explosionDamageFalloff>
+			<suppressionFactor>3.0</suppressionFactor>
+			<dangerFactor>2.0</dangerFactor>
+			<airborneSuppressionFactor>0.25</airborneSuppressionFactor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAttributeSet" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Holy_Hand_Grenade"]/projectile</xpath>
+		<attribute>Class</attribute>
+		<value>CombatExtended.ProjectilePropertiesCE</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Holy_Hand_Grenade"]</xpath>
+		<value><thingClass>CombatExtended.ProjectileCE_Explosive</thingClass></value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[defName="FCP_Proj_Grenade_Holy_Hand_Grenade"]/projectile</xpath>
+		<value>
+			<explosionDamageFalloff>true</explosionDamageFalloff>
+			<suppressionFactor>3.0</suppressionFactor>
+			<dangerFactor>2.0</dangerFactor>
+			<airborneSuppressionFactor>0.25</airborneSuppressionFactor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAttributeSet" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[@Name="FCP_BaseGrenadeProjectile"]/projectile</xpath>
+		<attribute>Class</attribute>
+		<value>CombatExtended.ProjectilePropertiesCE</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[@Name="FCP_BaseGrenadeProjectile"]/thingClass</xpath>
+		<value><thingClass>CombatExtended.ProjectileCE_Explosive</thingClass></value>
+	</Operation>
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.ExplosiveWeapons">
+		<xpath>Defs/ThingDef[@Name="FCP_BaseGrenadeProjectile"]/projectile</xpath>
+		<value>
+			<explosionDamageFalloff>true</explosionDamageFalloff>
+			<suppressionFactor>3.0</suppressionFactor>
+			<dangerFactor>2.0</dangerFactor>
+			<airborneSuppressionFactor>0.25</airborneSuppressionFactor>
+		</value>
+	</Operation>
+
+</Patch>

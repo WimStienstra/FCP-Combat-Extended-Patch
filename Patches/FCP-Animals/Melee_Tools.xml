@@ -1,0 +1,1241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.Animals">
+		<xpath>Defs/ThingDef[defName="FCP_Animal_Yao_Guai"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>left claw</label>
+					<labelNoLocation>claw</labelNoLocation>
+					<capacities><li>Cut</li></capacities>
+					<power>22.0</power>
+					<cooldownTime>2</cooldownTime>
+					<armorPenetration>0.35</armorPenetration>
+					<linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+					<armorPenetrationSharp>1.22</armorPenetrationSharp>
+					<armorPenetrationBlunt>2.64</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>right claw</label>
+					<labelNoLocation>claw</labelNoLocation>
+					<capacities><li>Cut</li></capacities>
+					<power>22.0</power>
+					<cooldownTime>2</cooldownTime>
+					<armorPenetration>0.35</armorPenetration>
+					<linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+					<armorPenetrationSharp>1.22</armorPenetrationSharp>
+					<armorPenetrationBlunt>2.64</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<capacities><li>Bite</li></capacities>
+					<power>20.0</power>
+					<cooldownTime>2.6</cooldownTime>
+					<armorPenetration>0.25</armorPenetration>
+					<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+					<chanceFactor>0.7</chanceFactor>
+					<armorPenetrationSharp>1.43</armorPenetrationSharp>
+					<armorPenetrationBlunt>2.4</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>12</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<chanceFactor>0.2</chanceFactor>
+					<armorPenetrationBlunt>3.96</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.Animals">
+		<xpath>Defs/ThingDef[defName="FCP_Animal_Rad_Chicken"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>claws</label>
+					<capacities><li>Scratch</li></capacities>
+					<power>2</power>
+					<cooldownTime>1.5</cooldownTime>
+					<linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+					<armorPenetrationSharp>0.14</armorPenetrationSharp>
+					<armorPenetrationBlunt>0.24</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>beak</label>
+					<capacities><li>Bite</li></capacities>
+					<power>3</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+					<armorPenetrationSharp>0.21</armorPenetrationSharp>
+					<armorPenetrationBlunt>0.36</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>1</power>
+					<cooldownTime>1.5</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<chanceFactor>0.2</chanceFactor>
+					<armorPenetrationBlunt>0.33</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.Animals">
+		<xpath>Defs/ThingDef[defName="FCP_Animal_Rad_Raven"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>talons</label>
+					<capacities><li>Scratch</li></capacities>
+					<power>5</power>
+					<cooldownTime>1.5</cooldownTime>
+					<linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+					<armorPenetrationSharp>0.36</armorPenetrationSharp>
+					<armorPenetrationBlunt>0.6</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>beak</label>
+					<capacities><li>Bite</li></capacities>
+					<power>3</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+					<armorPenetrationSharp>0.21</armorPenetrationSharp>
+					<armorPenetrationBlunt>0.36</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>1</power>
+					<cooldownTime>20</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<chanceFactor>0.8</chanceFactor>
+					<surpriseAttack><extraMeleeDamages><li><def>Stun</def><amount>14</amount></li></extraMeleeDamages></surpriseAttack>
+					<armorPenetrationBlunt>0.33</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.Animals">
+		<xpath>Defs/ThingDef[defName="FCP_Animal_Radgull"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>talons</label>
+					<capacities><li>Scratch</li></capacities>
+					<power>5</power>
+					<cooldownTime>1.5</cooldownTime>
+					<linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+					<armorPenetrationSharp>0.36</armorPenetrationSharp>
+					<armorPenetrationBlunt>0.6</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>beak</label>
+					<capacities><li>Bite</li></capacities>
+					<power>3</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+					<armorPenetrationSharp>0.21</armorPenetrationSharp>
+					<armorPenetrationBlunt>0.36</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>1</power>
+					<cooldownTime>20</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<chanceFactor>0.8</chanceFactor>
+					<surpriseAttack><extraMeleeDamages><li><def>Stun</def><amount>14</amount></li></extraMeleeDamages></surpriseAttack>
+					<armorPenetrationBlunt>0.33</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.Animals">
+		<xpath>Defs/ThingDef[defName="FCP_Animal_Thrasher"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>talons</label>
+					<capacities><li>Scratch</li></capacities>
+					<power>6</power>
+					<cooldownTime>1.5</cooldownTime>
+					<linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+					<armorPenetrationSharp>0.43</armorPenetrationSharp>
+					<armorPenetrationBlunt>0.72</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>beak</label>
+					<capacities><li>Bite</li></capacities>
+					<power>8</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+					<armorPenetrationSharp>0.57</armorPenetrationSharp>
+					<armorPenetrationBlunt>0.96</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>4</power>
+					<cooldownTime>1.5</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<chanceFactor>0.2</chanceFactor>
+					<armorPenetrationBlunt>1.32</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.Animals">
+		<xpath>Defs/ThingDef[@Name="FCP_Animal_Bighorner_Base"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>left hoof</label>
+					<labelNoLocation>hoof</labelNoLocation>
+					<capacities><li>Blunt</li><li>Poke</li></capacities>
+					<power>8.0</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+					<armorPenetrationSharp>0.73</armorPenetrationSharp>
+					<armorPenetrationBlunt>2.64</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>right hoof</label>
+					<labelNoLocation>hoof</labelNoLocation>
+					<capacities><li>Blunt</li><li>Poke</li></capacities>
+					<power>8.0</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+					<armorPenetrationSharp>0.73</armorPenetrationSharp>
+					<armorPenetrationBlunt>2.64</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<capacities><li>Bite</li></capacities>
+					<power>7.5</power>
+					<cooldownTime>2.6</cooldownTime>
+					<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+					<chanceFactor>0.7</chanceFactor>
+					<armorPenetrationSharp>0.54</armorPenetrationSharp>
+					<armorPenetrationBlunt>0.9</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>6</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<chanceFactor>0.2</chanceFactor>
+					<armorPenetrationBlunt>1.98</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.Animals">
+		<xpath>Defs/ThingDef[defName="FCP_Animal_Radstag"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>left hoof</label>
+					<labelNoLocation>hoof</labelNoLocation>
+					<capacities><li>Blunt</li></capacities>
+					<power>7.0</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+					<armorPenetrationBlunt>2.31</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>right hoof</label>
+					<labelNoLocation>hoof</labelNoLocation>
+					<capacities><li>Blunt</li></capacities>
+					<power>7.0</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+					<armorPenetrationBlunt>2.31</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>left head</label>
+					<labelNoLocation>head</labelNoLocation>
+					<capacities><li>Blunt</li></capacities>
+					<power>5</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<chanceFactor>0.5</chanceFactor>
+					<armorPenetrationBlunt>1.65</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.Animals">
+		<xpath>Defs/ThingDef[defName="FCP_Animal_Pale_Radstag"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>left hoof</label>
+					<labelNoLocation>hoof</labelNoLocation>
+					<capacities><li>Blunt</li></capacities>
+					<power>6.0</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+					<armorPenetrationBlunt>1.98</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>right hoof</label>
+					<labelNoLocation>hoof</labelNoLocation>
+					<capacities><li>Blunt</li></capacities>
+					<power>6.0</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+					<armorPenetrationBlunt>1.98</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>left head</label>
+					<labelNoLocation>head</labelNoLocation>
+					<capacities><li>Blunt</li></capacities>
+					<power>4</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<chanceFactor>0.5</chanceFactor>
+					<armorPenetrationBlunt>1.32</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.Animals">
+		<xpath>Defs/ThingDef[defName="FCP_Animal_Glowing_Radstag"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>left hoof</label>
+					<labelNoLocation>hoof</labelNoLocation>
+					<capacities><li>Blunt</li></capacities>
+					<power>9.0</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+					<armorPenetrationBlunt>2.97</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>right hoof</label>
+					<labelNoLocation>hoof</labelNoLocation>
+					<capacities><li>Blunt</li></capacities>
+					<power>9.0</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+					<armorPenetrationBlunt>2.97</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>left head</label>
+					<labelNoLocation>head</labelNoLocation>
+					<capacities><li>Blunt</li></capacities>
+					<power>7</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<chanceFactor>0.5</chanceFactor>
+					<armorPenetrationBlunt>2.31</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.Animals">
+		<xpath>Defs/ThingDef[@Name="FCP_Animal_Deathclaw_Base"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>left claw</label>
+					<labelNoLocation>claw</labelNoLocation>
+					<capacities><li>Cut</li></capacities>
+					<power>32.0</power>
+					<cooldownTime>2</cooldownTime>
+					<armorPenetration>0.45</armorPenetration>
+					<linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+					<surpriseAttack><extraMeleeDamages><li><def>Stun</def><amount>28</amount></li></extraMeleeDamages></surpriseAttack>
+					<armorPenetrationSharp>1.78</armorPenetrationSharp>
+					<armorPenetrationBlunt>3.84</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>right claw</label>
+					<labelNoLocation>claw</labelNoLocation>
+					<capacities><li>Cut</li></capacities>
+					<power>32.0</power>
+					<cooldownTime>2</cooldownTime>
+					<armorPenetration>0.45</armorPenetration>
+					<linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+					<surpriseAttack><extraMeleeDamages><li><def>Stun</def><amount>28</amount></li></extraMeleeDamages></surpriseAttack>
+					<armorPenetrationSharp>1.78</armorPenetrationSharp>
+					<armorPenetrationBlunt>3.84</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<capacities><li>Bite</li></capacities>
+					<power>28.0</power>
+					<cooldownTime>2.6</cooldownTime>
+					<armorPenetration>0.30</armorPenetration>
+					<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+					<chanceFactor>0.7</chanceFactor>
+					<armorPenetrationSharp>2</armorPenetrationSharp>
+					<armorPenetrationBlunt>3.36</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>14</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<chanceFactor>0.2</chanceFactor>
+					<armorPenetrationBlunt>4.62</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.Animals">
+		<xpath>Defs/ThingDef[defName="FCP_Animal_Alpha_Deathclaw"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>left claw</label>
+					<labelNoLocation>claw</labelNoLocation>
+					<capacities><li>Cut</li></capacities>
+					<power>40.0</power>
+					<cooldownTime>2</cooldownTime>
+					<armorPenetration>0.55</armorPenetration>
+					<linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+					<surpriseAttack><extraMeleeDamages><li><def>Stun</def><amount>35</amount></li></extraMeleeDamages></surpriseAttack>
+					<armorPenetrationSharp>2.22</armorPenetrationSharp>
+					<armorPenetrationBlunt>4.8</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>right claw</label>
+					<labelNoLocation>claw</labelNoLocation>
+					<capacities><li>Cut</li></capacities>
+					<power>40.0</power>
+					<cooldownTime>2</cooldownTime>
+					<armorPenetration>0.55</armorPenetration>
+					<linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+					<surpriseAttack><extraMeleeDamages><li><def>Stun</def><amount>40</amount></li></extraMeleeDamages></surpriseAttack>
+					<armorPenetrationSharp>2.22</armorPenetrationSharp>
+					<armorPenetrationBlunt>4.8</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<capacities><li>Bite</li></capacities>
+					<power>35.0</power>
+					<cooldownTime>2.6</cooldownTime>
+					<armorPenetration>0.40</armorPenetration>
+					<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+					<chanceFactor>0.7</chanceFactor>
+					<armorPenetrationSharp>2.5</armorPenetrationSharp>
+					<armorPenetrationBlunt>4.2</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>22</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<chanceFactor>0.2</chanceFactor>
+					<armorPenetrationBlunt>7.26</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.Animals">
+		<xpath>Defs/ThingDef[defName="FCP_Animal_Glowing_Deathclaw"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>left claw</label>
+					<labelNoLocation>claw</labelNoLocation>
+					<capacities><li>Cut</li></capacities>
+					<power>32.0</power>
+					<cooldownTime>2</cooldownTime>
+					<armorPenetration>0.45</armorPenetration>
+					<linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+					<surpriseAttack><extraMeleeDamages><li><def>Stun</def><amount>28</amount></li><li><def>ToxicBite</def><amount>20</amount></li></extraMeleeDamages></surpriseAttack>
+					<armorPenetrationSharp>1.78</armorPenetrationSharp>
+					<armorPenetrationBlunt>3.84</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>right claw</label>
+					<labelNoLocation>claw</labelNoLocation>
+					<capacities><li>Cut</li></capacities>
+					<power>32.0</power>
+					<cooldownTime>2</cooldownTime>
+					<armorPenetration>0.45</armorPenetration>
+					<linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+					<surpriseAttack><extraMeleeDamages><li><def>Stun</def><amount>28</amount></li><li><def>ToxicBite</def><amount>20</amount></li></extraMeleeDamages></surpriseAttack>
+					<armorPenetrationSharp>1.78</armorPenetrationSharp>
+					<armorPenetrationBlunt>3.84</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<capacities><li>Bite</li></capacities>
+					<power>28.0</power>
+					<cooldownTime>2.6</cooldownTime>
+					<armorPenetration>0.30</armorPenetration>
+					<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+					<chanceFactor>0.7</chanceFactor>
+					<armorPenetrationSharp>2</armorPenetrationSharp>
+					<armorPenetrationBlunt>3.36</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>14</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<chanceFactor>0.2</chanceFactor>
+					<armorPenetrationBlunt>4.62</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.Animals">
+		<xpath>Defs/ThingDef[defName="FCP_Animal_Elder_Deathclaw"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>left claw</label>
+					<labelNoLocation>claw</labelNoLocation>
+					<capacities><li>Cut</li></capacities>
+					<power>44.0</power>
+					<cooldownTime>2</cooldownTime>
+					<armorPenetration>0.60</armorPenetration>
+					<linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+					<surpriseAttack><extraMeleeDamages><li><def>Stun</def><amount>40</amount></li></extraMeleeDamages></surpriseAttack>
+					<armorPenetrationSharp>2.44</armorPenetrationSharp>
+					<armorPenetrationBlunt>5.28</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>right claw</label>
+					<labelNoLocation>claw</labelNoLocation>
+					<capacities><li>Cut</li></capacities>
+					<power>44.0</power>
+					<cooldownTime>2</cooldownTime>
+					<armorPenetration>0.60</armorPenetration>
+					<linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+					<surpriseAttack><extraMeleeDamages><li><def>Stun</def><amount>40</amount></li></extraMeleeDamages></surpriseAttack>
+					<armorPenetrationSharp>2.44</armorPenetrationSharp>
+					<armorPenetrationBlunt>5.28</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<capacities><li>Bite</li></capacities>
+					<power>38.0</power>
+					<cooldownTime>2.6</cooldownTime>
+					<armorPenetration>0.45</armorPenetration>
+					<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+					<chanceFactor>0.7</chanceFactor>
+					<armorPenetrationSharp>2.71</armorPenetrationSharp>
+					<armorPenetrationBlunt>4.56</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>24</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<chanceFactor>0.2</chanceFactor>
+					<armorPenetrationBlunt>7.92</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.Animals">
+		<xpath>Defs/ThingDef[@Name="FCP_Animal_Vicious_Dog_Base"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>left claw</label>
+					<labelNoLocation>claw</labelNoLocation>
+					<capacities><li>Scratch</li></capacities>
+					<power>9.0</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+					<armorPenetrationSharp>0.64</armorPenetrationSharp>
+					<armorPenetrationBlunt>1.08</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>right claw</label>
+					<labelNoLocation>claw</labelNoLocation>
+					<capacities><li>Scratch</li></capacities>
+					<power>9.0</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+					<armorPenetrationSharp>0.64</armorPenetrationSharp>
+					<armorPenetrationBlunt>1.08</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<capacities><li>Bite</li></capacities>
+					<power>15.0</power>
+					<cooldownTime>2.6</cooldownTime>
+					<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+					<chanceFactor>0.7</chanceFactor>
+					<armorPenetrationSharp>1.07</armorPenetrationSharp>
+					<armorPenetrationBlunt>1.8</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>6</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<chanceFactor>0.2</chanceFactor>
+					<armorPenetrationBlunt>1.98</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.Animals">
+		<xpath>Defs/ThingDef[@Name="FCP_Animal_German_Shepherd_Dog_Base"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>left claw</label>
+					<labelNoLocation>claw</labelNoLocation>
+					<capacities><li>Scratch</li></capacities>
+					<power>9.0</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+					<armorPenetrationSharp>0.64</armorPenetrationSharp>
+					<armorPenetrationBlunt>1.08</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>right claw</label>
+					<labelNoLocation>claw</labelNoLocation>
+					<capacities><li>Scratch</li></capacities>
+					<power>9.0</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+					<armorPenetrationSharp>0.64</armorPenetrationSharp>
+					<armorPenetrationBlunt>1.08</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<capacities><li>Bite</li></capacities>
+					<power>17.0</power>
+					<cooldownTime>2.6</cooldownTime>
+					<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+					<chanceFactor>0.7</chanceFactor>
+					<armorPenetrationSharp>1.21</armorPenetrationSharp>
+					<armorPenetrationBlunt>2.04</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>6</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<chanceFactor>0.2</chanceFactor>
+					<armorPenetrationBlunt>1.98</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.Animals">
+		<xpath>Defs/ThingDef[defName="FCP_Animal_Nightstalker"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>venomous bite</label>
+					<capacities><li>ToxicBite</li></capacities>
+					<power>18.0</power>
+					<cooldownTime>3</cooldownTime>
+					<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+					<surpriseAttack><extraMeleeDamages><li><def>Stun</def><amount>20</amount></li></extraMeleeDamages></surpriseAttack>
+					<chanceFactor>0.85</chanceFactor>
+					<armorPenetrationBlunt>2.16</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>claws</label>
+					<labelNoLocation>claws</labelNoLocation>
+					<capacities><li>Scratch</li></capacities>
+					<power>12.0</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+					<armorPenetrationSharp>0.86</armorPenetrationSharp>
+					<armorPenetrationBlunt>1.44</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>8</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<chanceFactor>0.1</chanceFactor>
+					<armorPenetrationBlunt>2.64</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.Animals">
+		<xpath>Defs/ThingDef[@Name="FCP_Animal_Gecko_Base"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<capacities><li>Bite</li></capacities>
+					<power>8.0</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+					<chanceFactor>0.9</chanceFactor>
+					<armorPenetrationSharp>0.57</armorPenetrationSharp>
+					<armorPenetrationBlunt>0.96</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>4</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<chanceFactor>0.1</chanceFactor>
+					<armorPenetrationBlunt>1.32</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.Animals">
+		<xpath>Defs/ThingDef[defName="FCP_Animal_Golden_Gecko"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<capacities><li>Bite</li><li>ToxicBite</li></capacities>
+					<power>10.0</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+					<chanceFactor>0.9</chanceFactor>
+					<armorPenetrationSharp>0.71</armorPenetrationSharp>
+					<armorPenetrationBlunt>1.2</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>5</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<chanceFactor>0.1</chanceFactor>
+					<armorPenetrationBlunt>1.65</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.Animals">
+		<xpath>Defs/ThingDef[defName="FCP_Animal_Green_Gecko"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<capacities><li>Bite</li><li>ToxicBite</li></capacities>
+					<power>9.0</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+					<chanceFactor>0.9</chanceFactor>
+					<armorPenetrationSharp>0.64</armorPenetrationSharp>
+					<armorPenetrationBlunt>1.08</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>5</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<chanceFactor>0.1</chanceFactor>
+					<armorPenetrationBlunt>1.65</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.Animals">
+		<xpath>Defs/ThingDef[defName="FCP_Animal_Fire_Gecko"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<capacities><li>Bite</li></capacities>
+					<power>12.0</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+					<chanceFactor>0.9</chanceFactor>
+					<armorPenetrationSharp>0.86</armorPenetrationSharp>
+					<armorPenetrationBlunt>1.44</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>6</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<chanceFactor>0.1</chanceFactor>
+					<armorPenetrationBlunt>1.98</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.Animals">
+		<xpath>Defs/ThingDef[defName="FCP_Animal_Radroach"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>mandibles</label>
+					<capacities><li>Bite</li></capacities>
+					<power>3</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+					<armorPenetrationSharp>0.21</armorPenetrationSharp>
+					<armorPenetrationBlunt>0.36</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>2</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<chanceFactor>0.1</chanceFactor>
+					<armorPenetrationBlunt>0.66</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.Animals">
+		<xpath>Defs/ThingDef[defName="FCP_Animal_Glowing_Radroach"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>mandibles</label>
+					<capacities><li>Bite</li></capacities>
+					<power>4</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+					<armorPenetrationSharp>0.29</armorPenetrationSharp>
+					<armorPenetrationBlunt>0.48</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>3</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<chanceFactor>0.1</chanceFactor>
+					<armorPenetrationBlunt>0.99</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.Animals">
+		<xpath>Defs/ThingDef[defName="FCP_Animal_Giant_Mantis"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>left forelimb</label>
+					<capacities><li>Cut</li></capacities>
+					<power>14</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
+					<surpriseAttack><extraMeleeDamages><li><def>Stun</def><amount>20</amount></li></extraMeleeDamages></surpriseAttack>
+					<armorPenetrationSharp>0.78</armorPenetrationSharp>
+					<armorPenetrationBlunt>1.68</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>right forelimb</label>
+					<capacities><li>Cut</li></capacities>
+					<power>14</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
+					<surpriseAttack><extraMeleeDamages><li><def>Stun</def><amount>20</amount></li></extraMeleeDamages></surpriseAttack>
+					<armorPenetrationSharp>0.78</armorPenetrationSharp>
+					<armorPenetrationBlunt>1.68</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>mandibles</label>
+					<capacities><li>Bite</li></capacities>
+					<power>10</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+					<armorPenetrationSharp>0.71</armorPenetrationSharp>
+					<armorPenetrationBlunt>1.2</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>6</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<chanceFactor>0.1</chanceFactor>
+					<armorPenetrationBlunt>1.98</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.Animals">
+		<xpath>Defs/ThingDef[defName="FCP_Animal_Mirelurk"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>left claw</label>
+					<labelNoLocation>claw</labelNoLocation>
+					<capacities><li>Cut</li></capacities>
+					<power>16.0</power>
+					<cooldownTime>2.5</cooldownTime>
+					<linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+					<armorPenetrationSharp>0.89</armorPenetrationSharp>
+					<armorPenetrationBlunt>1.92</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>right claw</label>
+					<labelNoLocation>claw</labelNoLocation>
+					<capacities><li>Cut</li></capacities>
+					<power>16.0</power>
+					<cooldownTime>2.5</cooldownTime>
+					<linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+					<armorPenetrationSharp>0.89</armorPenetrationSharp>
+					<armorPenetrationBlunt>1.92</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>10</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<chanceFactor>0.15</chanceFactor>
+					<armorPenetrationBlunt>3.3</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.Animals">
+		<xpath>Defs/ThingDef[defName="FCP_Animal_Beachlurk"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>left claw</label>
+					<labelNoLocation>claw</labelNoLocation>
+					<capacities><li>Cut</li></capacities>
+					<power>16.0</power>
+					<cooldownTime>2.5</cooldownTime>
+					<linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+					<armorPenetrationSharp>0.89</armorPenetrationSharp>
+					<armorPenetrationBlunt>1.92</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>right claw</label>
+					<labelNoLocation>claw</labelNoLocation>
+					<capacities><li>Cut</li></capacities>
+					<power>16.0</power>
+					<cooldownTime>2.5</cooldownTime>
+					<linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+					<armorPenetrationSharp>0.89</armorPenetrationSharp>
+					<armorPenetrationBlunt>1.92</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>10</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<chanceFactor>0.15</chanceFactor>
+					<armorPenetrationBlunt>3.3</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.Animals">
+		<xpath>Defs/ThingDef[defName="FCP_Animal_Riverlurk"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>left claw</label>
+					<labelNoLocation>claw</labelNoLocation>
+					<capacities><li>Cut</li></capacities>
+					<power>14.0</power>
+					<cooldownTime>2.5</cooldownTime>
+					<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+					<armorPenetrationSharp>0.78</armorPenetrationSharp>
+					<armorPenetrationBlunt>1.68</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>right claw</label>
+					<labelNoLocation>claw</labelNoLocation>
+					<capacities><li>Cut</li></capacities>
+					<power>14.0</power>
+					<cooldownTime>2.5</cooldownTime>
+					<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+					<armorPenetrationSharp>0.78</armorPenetrationSharp>
+					<armorPenetrationBlunt>1.68</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>9</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<chanceFactor>0.15</chanceFactor>
+					<armorPenetrationBlunt>2.97</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.Animals">
+		<xpath>Defs/ThingDef[defName="FCP_Animal_Lakelurk"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>claws</label>
+					<labelNoLocation>claws</labelNoLocation>
+					<capacities><li>Cut</li></capacities>
+					<power>20.0</power>
+					<cooldownTime>2.5</cooldownTime>
+					<linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+					<armorPenetrationSharp>1.11</armorPenetrationSharp>
+					<armorPenetrationBlunt>2.4</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>bite</label>
+					<capacities><li>Bite</li></capacities>
+					<power>18.0</power>
+					<cooldownTime>3</cooldownTime>
+					<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+					<chanceFactor>0.7</chanceFactor>
+					<armorPenetrationSharp>1.29</armorPenetrationSharp>
+					<armorPenetrationBlunt>2.16</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>12</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<chanceFactor>0.15</chanceFactor>
+					<armorPenetrationBlunt>3.96</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.Animals">
+		<xpath>Defs/ThingDef[defName="FCP_Animal_Lakelurk_King"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>left claw</label>
+					<labelNoLocation>claw</labelNoLocation>
+					<capacities><li>Cut</li></capacities>
+					<power>28.0</power>
+					<cooldownTime>2.0</cooldownTime>
+					<linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+					<armorPenetrationSharp>1.56</armorPenetrationSharp>
+					<armorPenetrationBlunt>3.36</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>right claw</label>
+					<labelNoLocation>claw</labelNoLocation>
+					<capacities><li>Cut</li></capacities>
+					<power>28.0</power>
+					<cooldownTime>2.0</cooldownTime>
+					<linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+					<armorPenetrationSharp>1.56</armorPenetrationSharp>
+					<armorPenetrationBlunt>3.36</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>bite</label>
+					<capacities><li>Bite</li></capacities>
+					<power>26.0</power>
+					<cooldownTime>2.5</cooldownTime>
+					<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+					<chanceFactor>0.8</chanceFactor>
+					<armorPenetrationSharp>1.86</armorPenetrationSharp>
+					<armorPenetrationBlunt>3.12</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>18</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<chanceFactor>0.15</chanceFactor>
+					<armorPenetrationBlunt>5.94</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.Animals">
+		<xpath>Defs/ThingDef[defName="FCP_Animal_Mirelurk_King"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>left claw</label>
+					<labelNoLocation>claw</labelNoLocation>
+					<capacities><li>Cut</li></capacities>
+					<power>30.0</power>
+					<cooldownTime>2.0</cooldownTime>
+					<linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+					<armorPenetrationSharp>1.67</armorPenetrationSharp>
+					<armorPenetrationBlunt>3.6</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>right claw</label>
+					<labelNoLocation>claw</labelNoLocation>
+					<capacities><li>Cut</li></capacities>
+					<power>30.0</power>
+					<cooldownTime>2.0</cooldownTime>
+					<linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+					<armorPenetrationSharp>1.67</armorPenetrationSharp>
+					<armorPenetrationBlunt>3.6</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>bite</label>
+					<capacities><li>Bite</li></capacities>
+					<power>28.0</power>
+					<cooldownTime>2.5</cooldownTime>
+					<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+					<chanceFactor>0.8</chanceFactor>
+					<armorPenetrationSharp>2</armorPenetrationSharp>
+					<armorPenetrationBlunt>3.36</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>20</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<chanceFactor>0.15</chanceFactor>
+					<armorPenetrationBlunt>6.6</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.Animals">
+		<xpath>Defs/ThingDef[defName="FCP_Animal_Molerat"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>claws</label>
+					<labelNoLocation>claws</labelNoLocation>
+					<capacities><li>Scratch</li></capacities>
+					<power>7.0</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+					<armorPenetrationSharp>0.5</armorPenetrationSharp>
+					<armorPenetrationBlunt>0.84</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<capacities><li>Bite</li></capacities>
+					<power>10.0</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+					<chanceFactor>0.9</chanceFactor>
+					<armorPenetrationSharp>0.71</armorPenetrationSharp>
+					<armorPenetrationBlunt>1.2</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>3</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<chanceFactor>0.1</chanceFactor>
+					<armorPenetrationBlunt>0.99</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.Animals">
+		<xpath>Defs/ThingDef[defName="FCP_Animal_Rad_Rabbit"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>claws</label>
+					<labelNoLocation>claws</labelNoLocation>
+					<capacities><li>Scratch</li></capacities>
+					<power>3.0</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+					<armorPenetrationSharp>0.21</armorPenetrationSharp>
+					<armorPenetrationBlunt>0.36</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<capacities><li>Bite</li></capacities>
+					<power>5.0</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+					<chanceFactor>0.8</chanceFactor>
+					<armorPenetrationSharp>0.36</armorPenetrationSharp>
+					<armorPenetrationBlunt>0.6</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>2</power>
+					<cooldownTime>2</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+					<chanceFactor>0.1</chanceFactor>
+					<armorPenetrationBlunt>0.66</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional" MayRequire="Rick.FCP.Animals">
+		<xpath>Defs/ThingDef[defName="FCP_Animal_Glowing_Deathclaw"]/statBases</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="FCP_Animal_Glowing_Deathclaw"]/statBases</xpath>
+			<value><Bulk>2.25</Bulk></value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="FCP_Animal_Glowing_Deathclaw"]</xpath>
+			<value><statBases><Bulk>2.25</Bulk></statBases></value>
+		</nomatch>
+	</Operation>
+
+</Patch>

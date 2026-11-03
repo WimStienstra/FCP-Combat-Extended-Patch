@@ -14,13 +14,13 @@ Harmony, Core, DLCs, Combat Extended, all FCP mods, then this mod. Do not remove
 | Apparel (~280) incl. power armor | Tools, Power Armor, BoS, Enclave, NCR, Legion, Raiders, Wastelanders, Khans, Marked Men, Followers, CoA | CE armor values (mm RHA / MPa), `Bulk`, `WornBulk`. |
 | Animals | Animals | CE armor values and `ToolCE` attacks. |
 
-Patch folders are only loaded when the matching FCP mod is active (`LoadFolders.xml`).
+Patches live in `Patches/<FCP mod>/`; every operation carries `MayRequire` for its FCP mod, so it only applies when that mod is active. There is deliberately no `LoadFolders.xml`.
 
 ## Ammo mapping
 See `Tools/caliber_map.py`. Examples: 10mm -> 10mm Auto, 5.56/.223 -> 5.56x45, 5mm -> 5.45x39, .308/7.62 -> 7.62x51, 12.7mm -> 12.7x55, 14mm -> .454 Casull, plasma -> CE plasma cells, laser -> CE charged ammo, gauss -> CE railgun ammo, flamers -> CE flamethrower fuel, rockets/Fatman -> CE rocket/recoilless ammo.
 
 ## Regenerating
-`python FCP-Combat-Extended-Patch\Tools\generate.py` from the `Mods` folder. It rewrites `Modules/` and `LoadFolders.xml` from the FCP defs. Per-class weapon stats are in `generate.py`, ammo in `caliber_map.py`.
+`python FCP-Combat-Extended-Patch\Tools\generate.py` from the `Mods` folder. It rewrites `Patches/` from the FCP defs. Per-class weapon stats are in `generate.py`, ammo in `caliber_map.py`.
 
 ## Phase 2 (not done yet)
 Fallout specific CE ammo (10mm, 5mm, .44, 2mm EC, fusion cells, ...): add the AmmoSet/ammo defs and point the entries in `caliber_map.py` at them.

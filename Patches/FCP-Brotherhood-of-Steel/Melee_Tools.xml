@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.BOS">
+		<xpath>Defs/ThingDef[defName="FCP_Gun_BoS_M94_Plasma_Rifle"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>stock</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>9</power>
+					<cooldownTime>2</cooldownTime>
+					<armorPenetrationBlunt>2.97</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>barrel</label>
+					<capacities><li>Blunt</li><li>Poke</li></capacities>
+					<power>9</power>
+					<cooldownTime>2</cooldownTime>
+					<armorPenetrationSharp>0.82</armorPenetrationSharp>
+					<armorPenetrationBlunt>2.97</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.BOS">
+		<xpath>Defs/ThingDef[defName="FCP_Gun_BoS_Ultracite_Rifle"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>stock</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>9</power>
+					<cooldownTime>2</cooldownTime>
+					<armorPenetrationBlunt>2.97</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>barrel</label>
+					<capacities><li>Blunt</li><li>Poke</li></capacities>
+					<power>9</power>
+					<cooldownTime>2</cooldownTime>
+					<armorPenetrationSharp>0.82</armorPenetrationSharp>
+					<armorPenetrationBlunt>2.97</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.BOS">
+		<xpath>Defs/ThingDef[defName="FCP_Gun_BoS_Crusader_Pistol"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>grip</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>5</power>
+					<cooldownTime>2</cooldownTime>
+					<armorPenetrationBlunt>1.65</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>barrel</label>
+					<capacities><li>Blunt</li><li>Poke</li></capacities>
+					<power>5</power>
+					<cooldownTime>2</cooldownTime>
+					<armorPenetrationSharp>0.46</armorPenetrationSharp>
+					<armorPenetrationBlunt>1.65</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.BOS">
+		<xpath>Defs/ThingDef[defName="FCP_Melee_BoS_Super_Sledge"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities><li>Poke</li></capacities>
+					<power>14</power>
+					<cooldownTime>2.5</cooldownTime>
+					<armorPenetrationSharp>1.27</armorPenetrationSharp>
+					<armorPenetrationBlunt>1.68</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>kinetic head</label>
+					<labelUsedInLogging>false</labelUsedInLogging>
+					<capacities><li>Blunt</li></capacities>
+					<power>36</power>
+					<cooldownTime>3.0</cooldownTime>
+					<armorPenetration>0.50</armorPenetration>
+					<armorPenetrationBlunt>11.88</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional" MayRequire="Rick.FCP.BOS">
+		<xpath>Defs/ThingDef[defName="FCP_Melee_BoS_Super_Sledge"]/statBases</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="FCP_Melee_BoS_Super_Sledge"]/statBases</xpath>
+			<value><Bulk>9.75</Bulk></value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="FCP_Melee_BoS_Super_Sledge"]</xpath>
+			<value><statBases><Bulk>9.75</Bulk></statBases></value>
+		</nomatch>
+	</Operation>
+
+</Patch>

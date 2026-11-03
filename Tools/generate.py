@@ -567,8 +567,18 @@ def grenade_patch(d, report):
 
 
 # ---------------------------------------------------------------- driver
-def wrap(ops):
-    return '<?xml version="1.0" encoding="utf-8"?>\n<Patch>\n\n' + '\n\n'.join(ops) + '\n\n</Patch>\n'
+def wrap(ops, pkg):
+    """One <Patch> file; every operation also requires the owning FCP mod (MayRequire accepts a comma separated list)."""
+    def tag(m):
+        attrs = m.group(1)
+        mr = re.search(r'MayRequire="([^"]*)"', attrs)
+        if mr:
+            attrs = attrs.replace(mr.group(0), 'MayRequire="%s,%s"' % (pkg, mr.group(1)))
+        else:
+            attrs = attrs + ' MayRequire="%s"' % pkg
+        return '\t<Operation %s>' % attrs
+    body = '\n\n'.join(re.sub(r'(?m)^\t<Operation ([^>]*)>', tag, o) for o in ops)
+    return '<?xml version="1.0" encoding="utf-8"?>\n<Patch>\n\n' + body + '\n\n</Patch>\n'
 
 
 def main():
@@ -636,21 +646,12 @@ def main():
         for fname, ops in files.items():
             if not ops:
                 continue
-            p = os.path.join(OUT, 'Modules', mod, 'Patches')
+            p = os.path.join(OUT, 'Patches', mod)
             os.makedirs(p, exist_ok=True)
             with open(os.path.join(p, fname), 'w', encoding='utf-8', newline='\n') as fh:
-                fh.write(wrap(ops))
+                fh.write(wrap(ops, pkg))
             wrote = True
             stats[(mod, fname)] = len(ops)
-        if wrote:
-            loadfolders.append((pkg, 'Modules/' + mod))
-
-    lf = ['<?xml version="1.0" encoding="utf-8"?>', '<loadFolders>', '\t<v1.6>']
-    for pkg, folder in loadfolders:
-        lf.append('\t\t<li IfModActive="%s">%s</li>' % (pkg, folder))
-    lf += ['\t</v1.6>', '</loadFolders>', '']
-    with open(os.path.join(OUT, 'LoadFolders.xml'), 'w', encoding='utf-8', newline='\n') as fh:
-        fh.write('\n'.join(lf))
 
     with open(os.path.join(OUT, 'Tools', 'last_report.txt'), 'w', encoding='utf-8') as fh:
         fh.write('\n'.join(report) + '\n')
