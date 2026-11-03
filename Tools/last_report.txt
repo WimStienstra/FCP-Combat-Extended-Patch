@@ -1,0 +1,179 @@
+GUN FCP_Gun_Power_Armor_Assault_Rifle             lmg       AmmoSet_556x45mmNATO       mag=100 burst=10
+GUN FCP_Gun_R91_Rifle                             rifle     AmmoSet_556x45mmNATO       mag=30 burst=3
+GUN FCP_Gun_Chinese_Assault_Rifle                 rifle     AmmoSet_556x45mmNATO       mag=30 burst=4
+GUN FCP_Gun_Marksman_Carbine                      boltrifle AmmoSet_556x45mmNATO       mag=8 burst=1
+GUN FCP_Gun_Assault_Carbine                       rifle     AmmoSet_545x39mmSoviet     mag=30 burst=5
+GUN FCP_Gun_AK_112_AR                             rifle     AmmoSet_556x45mmNATO       mag=30 burst=6
+GUN FCP_Gun_G11_AR                                rifle     AmmoSet_556x45mmNATO       mag=50 burst=15
+GUN FCP_Gun_Infiltrator                           rifle     AmmoSet_556x45mmNATO       mag=30 burst=6
+GUN FCP_Gun_Automatic_Rifle                       rifle     AmmoSet_556x45mmNATO       mag=30 burst=8
+GUN FCP_Gun_Minigun                               heavy     AmmoSet_545x39mmSoviet     mag=250 burst=25
+GUN FCP_Gun_Light_Machine_Gun                     lmg       AmmoSet_556x45mmNATO       mag=100 burst=12
+GUN FCP_Gun_ChunkyBoi                             heavy     AmmoSet_556x45mmNATO       mag=250 burst=8
+GUN FCP_Gun_MkI_Avenger                           heavy     AmmoSet_545x39mmSoviet     mag=100 burst=20
+GUN FCP_Gun_Vindicator                            heavy     AmmoSet_545x39mmSoviet     mag=250 burst=18
+GUN FCP_Gun_50_Cal_MG                             heavy     AmmoSet_50BMG              mag=250 burst=10
+GUN FCP_Gun_K900_Cyberdog_Gun                     lmg       AmmoSet_357Magnum          mag=100 burst=12
+GUN FCP_Gun_Rockwell_CZ54_Minigun                 heavy     AmmoSet_545x39mmSoviet     mag=100 burst=20
+GUN FCP_Gun_Shoulder_Mounted_MG                   lmg       AmmoSet_762x51mmNATO       mag=100 burst=14
+GUN FCP_Gun_Pipe_Pistol                           pistol    AmmoSet_32ACP              mag=12 burst=1
+GUN FCP_Gun_Pipe_Revolver                         revolver  AmmoSet_32ACP              mag=6 burst=1
+GUN FCP_Gun_Pipe_Rifle                            pistol    AmmoSet_3030Winchester     mag=12 burst=1
+GUN FCP_Gun_Pipe_BoltAction                       boltrifle AmmoSet_762x51mmNATO       mag=8 burst=1
+GUN FCP_Gun_Pipe_Shotgun                          shotgun   AmmoSet_12Gauge            mag=6 burst=1
+GUN FCP_Gun_Pipe_Sniper                           boltrifle AmmoSet_762x51mmNATO       mag=8 burst=1
+GUN FCP_Gun_10mm_Pistol                           pistol    AmmoSet_10mmAuto           mag=12 burst=1
+GUN FCP_Gun_Silenced_10mm_Pistol                  pistol    AmmoSet_10mmAuto           mag=12 burst=1
+GUN FCP_Gun_Chinese_Pistol                        pistol    AmmoSet_9x19mmPara         mag=12 burst=1
+GUN FCP_Gun_9mm_Pistol                            pistol    AmmoSet_9x19mmPara         mag=12 burst=1
+GUN FCP_Gun_556_Pistol                            pistol    AmmoSet_556x45mmNATO       mag=12 burst=1
+GUN FCP_Gun_127mm_Pistol                          pistol    AmmoSet_127x55mm           mag=8 burst=1
+GUN FCP_Gun_Silenced_22_Pistol                    pistol    AmmoSet_22LR               mag=12 burst=1
+GUN FCP_Gun_10mm_Pistol_MkII                      pistol    AmmoSet_10mmAuto           mag=12 burst=1
+GUN FCP_Gun_14mm_Pistol                           pistol    AmmoSet_454Casull          mag=8 burst=1
+GUN FCP_Gun_223_Pistol                            pistol    AmmoSet_556x45mmNATO       mag=12 burst=1
+GUN FCP_Gun_Colt_6520_Pistol                      pistol    AmmoSet_45ACP              mag=12 burst=1
+GUN FCP_Gun_Deagle                                pistol    AmmoSet_50AE               mag=8 burst=1
+GUN FCP_Gun_45_Auto_Pistol                        pistol    AmmoSet_45ACP              mag=12 burst=1
+GUN FCP_Gun_357_Revolver                          revolver  AmmoSet_357Magnum          mag=6 burst=1
+GUN FCP_Gun_44Magnum_Revolver                     revolver  AmmoSet_44Magnum           mag=6 burst=1
+GUN FCP_Gun_Hunting_Revolver                      revolver  AmmoSet_4570Gov            mag=6 burst=1
+GUN FCP_Gun_Police_Pistol                         pistol    AmmoSet_357Magnum          mag=12 burst=1
+GUN FCP_Gun_Combat_Rifle_Standard                 boltrifle AmmoSet_45ACP              mag=8 burst=1
+GUN FCP_Gun_BB_Gun                                pistol    AmmoSet_22Short            mag=12 burst=1
+GUN FCP_Gun_Brush_Gun                             boltrifle AmmoSet_4570Gov            mag=8 burst=1
+GUN FCP_Lever_Action_Rifle                        boltrifle AmmoSet_10mmAuto           mag=8 burst=1
+GUN FCP_Gun_Cowboy_Repeater                       revolver  AmmoSet_357Magnum          mag=10 burst=1
+GUN FCP_Gun_Trail_Carbine                         boltrifle AmmoSet_44Magnum           mag=8 burst=1
+GUN FCP_Gun_32_Hunting_Rifle                      boltrifle AmmoSet_3030Winchester     mag=8 burst=1
+GUN FCP_Gun_Varmint_Rifle                         boltrifle AmmoSet_556x45mmNATO       mag=8 burst=1
+GUN FCP_Gun_223_Rangemaster                       boltrifle AmmoSet_556x45mmNATO       mag=8 burst=1
+GUN FCP_Gun_223_Rifle                             boltrifle AmmoSet_556x45mmNATO       mag=8 burst=1
+GUN FCP_Gun_Battle_Rifle                          rifle     AmmoSet_762x51mmNATO       mag=30 burst=2
+GUN FCP_Gun_Caravan_Shotgun                       shotgun   AmmoSet_12Gauge            mag=6 burst=1
+GUN FCP_Gun_Hunting_Shotgun                       shotgun   AmmoSet_12Gauge            mag=6 burst=1
+GUN FCP_Gun_Combat_Shotgun                        shotgun   AmmoSet_12Gauge            mag=12 burst=1
+GUN FCP_Gun_Riot_Shotgun                          shotgun   AmmoSet_12Gauge            mag=12 burst=1
+GUN FCP_Gun_SawnOff_Shotgun                       shotgun   AmmoSet_12Gauge            mag=2 burst=1
+GUN FCP_Gun_LeverAction_Shotgun                   shotgun   AmmoSet_20Gauge            mag=6 burst=1
+GUN FCP_Gun_Single_Shotgun                        shotgun   AmmoSet_20Gauge            mag=2 burst=1
+GUN FCP_Gun_Citykiller                            shotgun   AmmoSet_12Gauge            mag=8 burst=1
+GUN FCP_Gun_Combat_Shotgun_MkII                   shotgun   AmmoSet_12Gauge            mag=12 burst=1
+GUN FCP_Gun_Jackhammer                            shotgun   AmmoSet_12Gauge            mag=12 burst=1
+GUN FCP_Gun_10mm_SMG                              smg       AmmoSet_10mmAuto           mag=30 burst=6
+GUN FCP_Gun_HK_10_SMG                             smg       AmmoSet_10mmAuto           mag=30 burst=7
+GUN FCP_Gun_9mm_SMG                               smg       AmmoSet_9x19mmPara         mag=30 burst=7
+GUN FCP_Gun_127mm_SMG                             smg       AmmoSet_127x55mm           mag=30 burst=5
+GUN FCP_Gun_Silenced_22_SMG                       smg       AmmoSet_22LR               mag=40 burst=8
+GUN FCP_Gun_45_Auto_SMG                           smg       AmmoSet_45ACP              mag=30 burst=5
+GUN FCP_Gun_DKS_501_Sniper_Rifle                  sniper    AmmoSet_762x51mmNATO       mag=5 burst=1
+GUN FCP_Gun_Scoped_Hunting_Rifle                  sniper    AmmoSet_762x51mmNATO       mag=5 burst=1
+GUN FCP_Gun_Anti_Material_Rifle                   sniper    AmmoSet_50BMG              mag=5 burst=1
+GUN FCP_Gun_DKS_500_Sniper_Rifle                  sniper    AmmoSet_762x51mmNATO       mag=5 burst=1
+GUN FCP_Gun_Lucky                                 pistol    AmmoSet_357Magnum          mag=12 burst=1
+GUN FCP_Gun_Maria                                 pistol    AmmoSet_9x19mmPara         mag=12 burst=1
+GUN FCP_Gun_AbileneKidLEBBGun                     pistol    AmmoSet_22Short            mag=12 burst=1
+GUN FCP_Gun_AllAmerican                           rifle     AmmoSet_556x45mmNATO       mag=30 burst=3
+GUN FCP_Gun_BigBoomer                             shotgun   AmmoSet_12Gauge            mag=6 burst=1
+GUN FCP_Gun_Deliverer                             pistol    AmmoSet_10mmAuto           mag=12 burst=1
+GUN FCP_Gun_HHToolsNailgun                        pistol    AmmoSet_Nail               mag=12 burst=1
+GUN FCP_Gun_LilDevil                              pistol    AmmoSet_127x55mm           mag=12 burst=1
+GUN FCP_Gun_LincolnsRepeater                      revolver  AmmoSet_44Magnum           mag=10 burst=1
+GUN FCP_Gun_MkIIAvenger                           smg       AmmoSet_9x19mmPara         mag=30 burst=5
+GUN FCP_Gun_Vances9mmSMG                          smg       AmmoSet_9x19mmPara         mag=30 burst=4
+GUN FCP_Gun_GobiCampaignScoutRifle                sniper    AmmoSet_762x51mmNATO       mag=5 burst=1
+GUN FCP_Gun_MedicineStick                         boltrifle AmmoSet_4570Gov            mag=8 burst=1
+GUN FCP_Gun_Bozar                                 lmg       AmmoSet_762x51mmNATO       mag=100 burst=6
+GUN FCP_Gun_DinnerBell                            shotgun   AmmoSet_12Gauge            mag=2 burst=1
+GUN FCP_Gun_Ratslayer                             boltrifle AmmoSet_22LR               mag=8 burst=1
+GUN FCP_Gun_Wanda                                 shotgun   AmmoSet_12Gauge            mag=2 burst=1
+GUN FCP_Gun_OlPainless                            boltrifle AmmoSet_3030Winchester     mag=8 burst=1
+GUN FCP_Gun_VictoryRifle                          sniper    AmmoSet_762x51mmNATO       mag=5 burst=1
+GUN FCP_Gun_ReservistsRifle                       sniper    AmmoSet_762x51mmNATO       mag=5 burst=1
+GUN FCP_Gun_FIDO                                  lmg       AmmoSet_357Magnum          mag=100 burst=14
+GUN FCP_Gun_Light_Shining_In_Darkness             pistol    AmmoSet_45ACP              mag=12 burst=1
+GUN FCP_Gun_Paciena                               sniper    AmmoSet_762x51mmNATO       mag=5 burst=1
+GUN FCP_Gun_Sleepy_Time                           pistol    AmmoSet_22LR               mag=12 burst=1
+GUN FCP_Gun_Sturdy_Caravan_Shotgun                shotgun   AmmoSet_12Gauge            mag=6 burst=1
+GUN FCP_Gun_Survivalist_Rifle                     rifle     AmmoSet_556x45mmNATO       mag=30 burst=3
+GUN FCP_Gun_This_Machine                          rifle     AmmoSet_762x51mmNATO       mag=30 burst=2
+GUN FCP_Gun_Weathered_10mm_Pistol                 pistol    AmmoSet_10mmAuto           mag=12 burst=1
+GUN FCP_Gun_BoS_M94_Plasma_Rifle                  rifle     AmmoSet_PlasmaCellRifle    mag=24 burst=1
+GUN FCP_Gun_BoS_Ultracite_Rifle                   rifle     AmmoSet_PlasmaCellRifle    mag=24 burst=1
+GUN FCP_Gun_BoS_Crusader_Pistol                   pistol    AmmoSet_10mmAuto           mag=12 burst=1
+GUN FCP_Gun_Gamma                                 rifle     AmmoSet_PlasmaCellPistol   mag=24 burst=1
+GUN FCP_Gun_Radium_Rifle                          rifle     AmmoSet_PlasmaCellRifle    mag=24 burst=1
+GUN FCP_Gun_Enclave_Plasma_SMG                    smg       AmmoSet_PlasmaCellPistol   mag=30 burst=3
+GUN FCP_Gun_Enclave_Assault_Plasma_Rifle          rifle     AmmoSet_PlasmaCellRifle    mag=24 burst=1
+GUN FCP_Gun_Enclave_Advanced_Multiplas_Rifle      rifle     AmmoSet_PlasmaCellRifle    mag=24 burst=3
+GUN FCP_Gun_Enclave_SMELE_Plasma_Rifle            rifle     AmmoSet_PlasmaCellRifle    mag=24 burst=1
+GUN FCP_Gun_Enclave_Plasma_Cannon                 rifle     AmmoSet_PlasmaCellHeavy    mag=24 burst=1
+GUN FCP_Gun_Flamer_MkI                            flamer    AmmoSet_Flamethrower       mag=25 burst=1
+GUN FCP_Gun_Flamer_MkII                           flamer    AmmoSet_Flamethrower       mag=25 burst=1
+GUN FCP_Gun_Heavy_Incinerator                     flamer    AmmoSet_Flamethrower       mag=25 burst=1
+GUN FCP_Gun_PPK12_Gauss_Pistol                    energy_pistol AmmoSet_6mmRailgun         mag=20 burst=1
+GUN FCP_Gun_M72_Gauss_Rifle                       sniper    AmmoSet_8mmRailgun         mag=10 burst=1
+GUN FCP_Gun_Gauss_Minigun                         heavy     AmmoSet_12mmRailgun        mag=100 burst=15
+GUN FCP_Gun_Gauss_Sniper_Rifle                    sniper    AmmoSet_12mmRailgun        mag=10 burst=1
+GUN FCP_Gun_M72_A2_Gauss_Rifle                    sniper    AmmoSet_8mmRailgun         mag=10 burst=1
+GUN FCP_Gun_Laser_Pistol                          energy_pistol AmmoSet_5x16mmCharged      mag=20 burst=1
+GUN FCP_Gun_Laser_Rifle                           rifle     AmmoSet_6x24mmCharged      mag=24 burst=1
+GUN FCP_Gun_Tri_Beam_Laser_Rifle                  smg       AmmoSet_6x24mmCharged      mag=30 burst=3
+GUN FCP_Gun_Gatling_Laser                         rifle     AmmoSet_8x35mmCharged      mag=50 burst=15
+GUN FCP_Gun_Laser_RCW                             smg       AmmoSet_6x24mmCharged      mag=40 burst=10
+GUN FCP_Gun_Recharger_Rifle                       rifle     AmmoSet_5x16mmCharged      mag=50 burst=10
+GUN FCP_Gun_Recharger_Pistol                      energy_pistol AmmoSet_5x16mmCharged      mag=20 burst=10
+GUN FCP_Gun_AER14_Prototype                       rifle     AmmoSet_6x24mmCharged      mag=24 burst=1
+GUN FCP_Gun_Gatling_Laser_MkI                     rifle     AmmoSet_8x35mmCharged      mag=50 burst=12
+GUN FCP_Gun_Laser_Carbine                         energy_pistol AmmoSet_6x24mmCharged      mag=20 burst=1
+GUN FCP_Gun_MF_Hyperbreeder_Alpha                 smg       AmmoSet_5x16mmCharged      mag=40 burst=15
+GUN FCP_Gun_Pew_Pew                               energy_pistol AmmoSet_6x24mmCharged      mag=20 burst=1
+GUN FCP_Gun_Sprtel_Wood_9700_Unique               rifle     AmmoSet_8x35mmCharged      mag=50 burst=18
+GUN FCP_Gun_Wattz_1000_Laser_Pistol               energy_pistol AmmoSet_5x16mmCharged      mag=20 burst=1
+GUN FCP_Gun_Wattz_2000_Laser_Rifle                rifle     AmmoSet_6x24mmCharged      mag=24 burst=1
+GUN FCP_Gun_Plasma_Pistol                         energy_pistol AmmoSet_PlasmaCellPistol   mag=20 burst=1
+GUN FCP_Gun_Plasma_Rifle                          rifle     AmmoSet_PlasmaCellRifle    mag=24 burst=1
+GUN FCP_Gun_Multiplas_Rifle                       smg       AmmoSet_PlasmaCellRifle    mag=30 burst=3
+GUN FCP_Gun_Plasma_Caster                         rifle     AmmoSet_PlasmaCellHeavy    mag=20 burst=4
+GUN FCP_Gun_Plasma_Defender                       rifle     AmmoSet_PlasmaCellPistol   mag=24 burst=1
+GUN FCP_Gun_Plasma_Caster_MkI                     rifle     AmmoSet_PlasmaCellHeavy    mag=20 burst=4
+GUN FCP_Gun_Glock_86_Plasma_Pistol                energy_pistol AmmoSet_PlasmaCellPistol   mag=20 burst=1
+GUN FCP_Gun_P_94_Plasma_Rifle                     rifle     AmmoSet_PlasmaCellRifle    mag=24 burst=1
+GUN FCP_Gun_Q35_Matter_Modulator                  rifle     AmmoSet_PlasmaCellRifle    mag=24 burst=1
+GUN FCP_Gun_Plasma_Machine_Gun                    lmg       AmmoSet_PlasmaCellHeavy    mag=100 burst=10
+GUN FCP_Gun_YK32_Pulse_Pistol                     energy_pistol AmmoSet_40x46mmOnlyEMP     mag=20 burst=1
+GUN FCP_Gun_YK42B_Pulse_Rifle                     rifle     AmmoSet_40x46mmOnlyEMP     mag=30 burst=3
+GUN FCP_Gun_25MM_Grenade_Launcher                 launcher  AmmoSet_25x40mmGrenade     mag=1 burst=1
+GUN FCP_Gun_Grenade_Machinegun                    heavy     AmmoSet_40x53mmGrenade     mag=250 burst=8
+GUN FCP_Gun_Missile_Launcher                      launcher  AmmoSet_83mmSMAW           mag=1 burst=1
+GUN FCP_Gun_Rockwell_Big_Bazooka                  launcher  AmmoSet_88mmRPzBRocket     mag=2 burst=2
+GUN FCP_Gun_Fatman                                launcher  AmmoSet_90mmRecoilless     mag=1 burst=1
+GUN FCP_Gun_Auto_Cannon                           heavy     AmmoSet_Autocannon         mag=30 burst=6
+GRENADE FCP_Grenade_Fragmentation
+GRENADE FCP_Grenade_Plasma
+GRENADE FCP_Grenade_Pulse
+GRENADE FCP_Grenade_Cryo
+GRENADE FCP_Grenade_Nuka
+GRENADE FCP_Grenade_Nuka_Quantum
+GRENADE FCP_Grenade_Dynamite
+GRENADE FCP_Grenade_Long_Fuse_Dynamite
+GRENADE FCP_Grenade_Bio_Gas
+GRENADE FCP_Grenade_Hallucinogen_Gas
+GRENADE FCP_Grenade_Smoke
+GRENADE FCP_Grenade_Flashbang
+GRENADE FCP_Grenade_Acid
+GRENADE FCP_Grenade_Tincan
+GRENADE FCP_Grenade_Piggybank
+GRENADE FCP_Grenade_Pipebomb
+GRENADE FCP_Grenade_Baseball
+GRENADE FCP_Grenade_MFC
+GRENADE FCP_Grenade_Molotov_Cocktail
+GRENADE FCP_Grenade_Mininuke
+GRENADE FCP_Grenade_Boombug
+GRENADE FCP_Grenade_Holy_Hand_Grenade
+GUN FCP_Gun_Red_Glare                             launcher  AmmoSet_80mmRocket_direct  mag=4 burst=4
+GUN FCP_Gun_Broadsider                            launcher  AmmoSet_90mmRecoilless     mag=1 burst=1
+GUN FCP_Gun_Ranger_Ricks_Big_Iron_Revolver        revolver  AmmoSet_357Magnum          mag=6 burst=1
+GUN FCP_Gun_Service_Rifle                         rifle     AmmoSet_556x45mmNATO       mag=30 burst=2
+GUN FCP_Gun_Ranger_Sequoia                        boltrifle AmmoSet_4570Gov            mag=8 burst=1
+GUN FCP_Gun_NCR_Hunting_Rifle                     sniper    AmmoSet_762x51mmNATO       mag=5 burst=1

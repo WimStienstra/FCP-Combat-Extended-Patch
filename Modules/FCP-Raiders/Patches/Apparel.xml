@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="FCP_Raider_Armor_Base"]/statBases</xpath>
+		<value>
+			<Bulk>9.2</Bulk>
+			<WornBulk>4.1</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[@Name="FCP_Raider_Armor_Base"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>7</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[@Name="FCP_Raider_Armor_Base"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>7</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Badlands_Armor"]</xpath>
+		<value>
+			<statBases>
+				<Bulk>1.4</Bulk>
+				<WornBulk>0.5</WornBulk>
+			</statBases>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Blastmaster_Armor"]</xpath>
+		<value>
+			<statBases>
+				<Bulk>1.4</Bulk>
+				<WornBulk>0.5</WornBulk>
+			</statBases>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Painspike_Armor"]</xpath>
+		<value>
+			<statBases>
+				<Bulk>1.4</Bulk>
+				<WornBulk>0.5</WornBulk>
+			</statBases>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Sadist_Armor"]</xpath>
+		<value>
+			<statBases>
+				<Bulk>1.4</Bulk>
+				<WornBulk>0.5</WornBulk>
+			</statBases>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Long_Johns"]/statBases</xpath>
+		<value>
+			<Bulk>3.1</Bulk>
+			<WornBulk>1</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Long_Johns"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>0</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Long_Johns"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>0</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Armor_Light"]/statBases</xpath>
+		<value>
+			<Bulk>7.4</Bulk>
+			<WornBulk>3.2</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Armor_Light"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>4</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Armor_Light"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>4</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Armor_Medium"]/statBases</xpath>
+		<value>
+			<Bulk>8.3</Bulk>
+			<WornBulk>3.7</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Armor_Medium"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>5.5</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Armor_Medium"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>5.6</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Armor_Heavy"]/statBases</xpath>
+		<value>
+			<Bulk>9.5</Bulk>
+			<WornBulk>4.2</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Armor_Heavy"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>7.5</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Armor_Heavy"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>7.6</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Tire_Armor"]/statBases</xpath>
+		<value>
+			<Bulk>1.5</Bulk>
+			<WornBulk>0.5</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Tire_Armor"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>4.5</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Tire_Armor"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>7</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Leathers"]/statBases</xpath>
+		<value>
+			<Bulk>1.3</Bulk>
+			<WornBulk>0.5</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Leathers"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>6</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Leathers"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>6</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Leather_Coat"]/statBases</xpath>
+		<value>
+			<Bulk>1.4</Bulk>
+			<WornBulk>0.5</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Leather_Coat"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>8</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Leather_Coat"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>8</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="FCP_Raider_Helmet_Base"]/statBases</xpath>
+		<value>
+			<Bulk>3.6</Bulk>
+			<WornBulk>1</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[@Name="FCP_Raider_Helmet_Base"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>2</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[@Name="FCP_Raider_Helmet_Base"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>2</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="FCP_Fiend_Helmet_Base"]/statBases</xpath>
+		<value>
+			<Bulk>3.9</Bulk>
+			<WornBulk>1</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[@Name="FCP_Fiend_Helmet_Base"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>3</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[@Name="FCP_Fiend_Helmet_Base"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>4</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Fiend_Helmet"]</xpath>
+		<value>
+			<statBases>
+				<Bulk>1.1</Bulk>
+				<WornBulk>0.5</WornBulk>
+			</statBases>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Fiend_Warrior_Helmet"]</xpath>
+		<value>
+			<statBases>
+				<Bulk>1.1</Bulk>
+				<WornBulk>0.5</WornBulk>
+			</statBases>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Fiend_Battle_Helmet"]</xpath>
+		<value>
+			<statBases>
+				<Bulk>1.1</Bulk>
+				<WornBulk>0.5</WornBulk>
+			</statBases>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Wastehound_Helmet"]</xpath>
+		<value>
+			<statBases>
+				<Bulk>1.1</Bulk>
+				<WornBulk>0.5</WornBulk>
+			</statBases>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Blastmaster_Helmet"]</xpath>
+		<value>
+			<statBases>
+				<Bulk>1.1</Bulk>
+				<WornBulk>0.5</WornBulk>
+			</statBases>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Psycho_Tic_Helmet"]</xpath>
+		<value>
+			<statBases>
+				<Bulk>1.1</Bulk>
+				<WornBulk>0.5</WornBulk>
+			</statBases>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Arclight_Helmet"]/statBases</xpath>
+		<value>
+			<Bulk>1.4</Bulk>
+			<WornBulk>0.5</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Arclight_Helmet"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>5</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Arclight_Helmet"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>6</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Arclight_Rust_Helmet"]</xpath>
+		<value>
+			<statBases>
+				<Bulk>1.4</Bulk>
+				<WornBulk>0.5</WornBulk>
+			</statBases>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Sack_Hood"]/statBases</xpath>
+		<value>
+			<Bulk>4.5</Bulk>
+			<WornBulk>1</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Sack_Hood"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>5</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Sack_Hood"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>6</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Armored_Raider_Skull_Gas_Mask"]/statBases</xpath>
+		<value>
+			<Bulk>1.3</Bulk>
+			<WornBulk>0.5</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Armored_Raider_Skull_Gas_Mask"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>4</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Armored_Raider_Skull_Gas_Mask"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>5</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Rusty_Raider_Skull_Gas_Mask"]/statBases</xpath>
+		<value>
+			<Bulk>1.2</Bulk>
+			<WornBulk>0.5</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Rusty_Raider_Skull_Gas_Mask"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>2.5</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Rusty_Raider_Skull_Gas_Mask"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>3</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.PowerArmor">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Power_Armor_Helmet"]/statBases</xpath>
+		<value>
+			<Bulk>6</Bulk>
+			<WornBulk>2</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.PowerArmor">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Power_Armor_Helmet"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>9.5</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.PowerArmor">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Power_Armor_Helmet"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>19</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.PowerArmor">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Junkyard_Power_Armor_Helmet"]/statBases</xpath>
+		<value>
+			<Bulk>6</Bulk>
+			<WornBulk>2</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.PowerArmor">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Junkyard_Power_Armor_Helmet"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>9</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.PowerArmor">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Junkyard_Power_Armor_Helmet"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>18</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.PowerArmor">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Scabber_Power_Armor_Helmet"]/statBases</xpath>
+		<value>
+			<Bulk>6</Bulk>
+			<WornBulk>2</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.PowerArmor">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Scabber_Power_Armor_Helmet"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>8.5</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.PowerArmor">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Scabber_Power_Armor_Helmet"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>17</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.PowerArmor">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Waster_Power_Armor_Helmet"]/statBases</xpath>
+		<value>
+			<Bulk>6</Bulk>
+			<WornBulk>2</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.PowerArmor">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Waster_Power_Armor_Helmet"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>9.2</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.PowerArmor">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Waster_Power_Armor_Helmet"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>18.4</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.PowerArmor">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Mrfuzzy_Power_Armor_Helmet"]/statBases</xpath>
+		<value>
+			<Bulk>6</Bulk>
+			<WornBulk>2</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.PowerArmor">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Mrfuzzy_Power_Armor_Helmet"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>9.5</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.PowerArmor">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Mrfuzzy_Power_Armor_Helmet"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>19</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="FCP_Raider_Power_Armor_Base"]/statBases</xpath>
+		<value>
+			<Bulk>40</Bulk>
+			<WornBulk>15</WornBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Power_Armor"]/statBases</xpath>
+		<value>
+			<Bulk>40</Bulk>
+			<WornBulk>15</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Power_Armor"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>15.6</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Raider_Power_Armor"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>27.5</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Scabber_Power_Armor"]/statBases</xpath>
+		<value>
+			<Bulk>40</Bulk>
+			<WornBulk>15</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Scabber_Power_Armor"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>16.8</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Scabber_Power_Armor"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>29.8</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Waster_Power_Armor"]/statBases</xpath>
+		<value>
+			<Bulk>40</Bulk>
+			<WornBulk>15</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Waster_Power_Armor"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>17.6</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Waster_Power_Armor"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>31.2</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+</Patch>

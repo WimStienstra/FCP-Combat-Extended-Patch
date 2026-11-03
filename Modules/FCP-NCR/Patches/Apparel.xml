@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.NCR">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Ranger_Ricks_Uniform"]/statBases</xpath>
+		<value>
+			<Bulk>4.5</Bulk>
+			<WornBulk>1</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.NCR">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Ranger_Ricks_Uniform"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>1.5</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.NCR">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Ranger_Ricks_Uniform"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>2</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.NCR">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Ranger_Ricks_Armor"]/statBases</xpath>
+		<value>
+			<Bulk>12.8</Bulk>
+			<WornBulk>5.9</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.NCR">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Ranger_Ricks_Armor"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>12.4</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.NCR">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Ranger_Ricks_Armor"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>11</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.NCR">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Ranger_Ricks_Duster"]/statBases</xpath>
+		<value>
+			<Bulk>4.1</Bulk>
+			<WornBulk>1</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.NCR">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Ranger_Ricks_Duster"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>1.8</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.NCR">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Ranger_Ricks_Duster"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>3.2</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd" MayRequire="Rick.FCP.NCR">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Ranger_Ricks_Helmet"]/statBases</xpath>
+		<value>
+			<Bulk>5.5</Bulk>
+			<WornBulk>1</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.NCR">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Ranger_Ricks_Helmet"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>8.5</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace" MayRequire="Rick.FCP.NCR">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Ranger_Ricks_Helmet"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>9</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Accessories_NCR_Bandoleer"]/statBases</xpath>
+		<value>
+			<Bulk>5</Bulk>
+			<WornBulk>1</WornBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Accessories_NCR_Mantle"]/statBases</xpath>
+		<value>
+			<Bulk>2.6</Bulk>
+			<WornBulk>0.5</WornBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Engineer_Jumpsuit"]/statBases</xpath>
+		<value>
+			<Bulk>4</Bulk>
+			<WornBulk>1</WornBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Ambassador_Dress"]/statBases</xpath>
+		<value>
+			<Bulk>4</Bulk>
+			<WornBulk>1</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Ambassador_Dress"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Ambassador_Dress"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Ambassador_Suit"]/statBases</xpath>
+		<value>
+			<Bulk>4</Bulk>
+			<WornBulk>1</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Ambassador_Suit"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Ambassador_Suit"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Presidents_Suit"]/statBases</xpath>
+		<value>
+			<Bulk>4</Bulk>
+			<WornBulk>1</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Presidents_Suit"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Presidents_Suit"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Trooper_Fatigues"]/statBases</xpath>
+		<value>
+			<Bulk>4</Bulk>
+			<WornBulk>1</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Trooper_Fatigues"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Trooper_Fatigues"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Trooper_MP_Uniform"]/statBases</xpath>
+		<value>
+			<Bulk>4</Bulk>
+			<WornBulk>1</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Trooper_MP_Uniform"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Trooper_MP_Uniform"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Generals_Uniform"]/statBases</xpath>
+		<value>
+			<Bulk>4</Bulk>
+			<WornBulk>1</WornBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="FCP_NCR_Ranger_Outfit"]/statBases</xpath>
+		<value>
+			<Bulk>4</Bulk>
+			<WornBulk>1</WornBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Ranger_Casual"]</xpath>
+		<value>
+			<statBases>
+				<Bulk>1.8</Bulk>
+				<WornBulk>0.5</WornBulk>
+			</statBases>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Ranger_Red_Scarf"]</xpath>
+		<value>
+			<statBases>
+				<Bulk>1.8</Bulk>
+				<WornBulk>0.5</WornBulk>
+			</statBases>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Ranger_Vest"]</xpath>
+		<value>
+			<statBases>
+				<Bulk>1.8</Bulk>
+				<WornBulk>0.5</WornBulk>
+			</statBases>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Ranger_Veteran_Uniform"]/statBases</xpath>
+		<value>
+			<Bulk>4.5</Bulk>
+			<WornBulk>1</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Ranger_Veteran_Uniform"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Ranger_Veteran_Uniform"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>1.6</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Ranger_Veteran_Duster"]/statBases</xpath>
+		<value>
+			<Bulk>4</Bulk>
+			<WornBulk>1</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Ranger_Veteran_Duster"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>1.4</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Ranger_Veteran_Duster"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>2.4</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCRCF_Inmate_Uniform"]/statBases</xpath>
+		<value>
+			<Bulk>3.1</Bulk>
+			<WornBulk>1</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCRCF_Inmate_Uniform"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCRCF_Inmate_Uniform"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCRCF_Over_Shirt"]/statBases</xpath>
+		<value>
+			<Bulk>3.1</Bulk>
+			<WornBulk>1</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCRCF_Over_Shirt"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCRCF_Over_Shirt"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Powder_Ganger_Simple_Outfit"]/statBases</xpath>
+		<value>
+			<Bulk>3.1</Bulk>
+			<WornBulk>1</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Powder_Ganger_Simple_Outfit"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_Powder_Ganger_Simple_Outfit"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Trooper_Armor"]/statBases</xpath>
+		<value>
+			<Bulk>10.7</Bulk>
+			<WornBulk>4.8</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Trooper_Armor"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>9.5</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Trooper_Armor"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>8.4</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Trooper_Bandoleer_Armor"]/statBases</xpath>
+		<value>
+			<Bulk>10.7</Bulk>
+			<WornBulk>4.8</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Trooper_Bandoleer_Armor"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>9.5</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Trooper_Bandoleer_Armor"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>8.4</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Trooper_Vest"]/statBases</xpath>
+		<value>
+			<Bulk>10.7</Bulk>
+			<WornBulk>4.8</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Trooper_Vest"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>9.5</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Trooper_Vest"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>8.4</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Trooper_Mantle_Armor"]/statBases</xpath>
+		<value>
+			<Bulk>11</Bulk>
+			<WornBulk>5</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Trooper_Mantle_Armor"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>10</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Trooper_Mantle_Armor"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>9</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Scout_Recon_Armor"]/statBases</xpath>
+		<value>
+			<Bulk>11.3</Bulk>
+			<WornBulk>5.2</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Scout_Recon_Armor"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>10.4</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Scout_Recon_Armor"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>9.6</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Salvaged_Power_Armor"]/statBases</xpath>
+		<value>
+			<Bulk>40</Bulk>
+			<WornBulk>15</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Salvaged_Power_Armor"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>14.8</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Salvaged_Power_Armor"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>26</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Ranger_Patrol_Armor"]/statBases</xpath>
+		<value>
+			<Bulk>11.9</Bulk>
+			<WornBulk>5.4</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Ranger_Patrol_Armor"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>11.2</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Ranger_Patrol_Armor"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>10</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Ranger_Veteran_Armor"]/statBases</xpath>
+		<value>
+			<Bulk>16.7</Bulk>
+			<WornBulk>7.8</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Ranger_Veteran_Armor"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>17.6</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Ranger_Veteran_Armor"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>31.2</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCRCF_Guard_Vest"]/statBases</xpath>
+		<value>
+			<Bulk>8.9</Bulk>
+			<WornBulk>4</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCRCF_Guard_Vest"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>6.5</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCRCF_Guard_Vest"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>10</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCRCF_Guard_Helmet"]/statBases</xpath>
+		<value>
+			<Bulk>5.1</Bulk>
+			<WornBulk>1</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCRCF_Guard_Helmet"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>7</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCRCF_Guard_Helmet"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>7</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Trooper_Helmet"]/statBases</xpath>
+		<value>
+			<Bulk>5</Bulk>
+			<WornBulk>1</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Trooper_Helmet"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>6.5</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Trooper_Helmet"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>6.4</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Goggles_Helmet"]</xpath>
+		<value>
+			<statBases>
+				<Bulk>3</Bulk>
+				<WornBulk>1</WornBulk>
+			</statBases>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Face_Wrap_Helmet"]/statBases</xpath>
+		<value>
+			<Bulk>1.3</Bulk>
+			<WornBulk>0.5</WornBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Face_Wrap_Goggles_Helmet"]/statBases</xpath>
+		<value>
+			<Bulk>3</Bulk>
+			<WornBulk>1</WornBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_MP_Helmet"]</xpath>
+		<value>
+			<statBases>
+				<Bulk>1.3</Bulk>
+				<WornBulk>0.5</WornBulk>
+			</statBases>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Beret"]/statBases</xpath>
+		<value>
+			<Bulk>3</Bulk>
+			<WornBulk>1</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Beret"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>0</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Beret"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>0</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Beret_1st_Recon"]</xpath>
+		<value>
+			<statBases>
+				<Bulk>1.1</Bulk>
+				<WornBulk>0.5</WornBulk>
+			</statBases>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Salvaged_Power_Armor_Helmet"]/statBases</xpath>
+		<value>
+			<Bulk>6</Bulk>
+			<WornBulk>2</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Salvaged_Power_Armor_Helmet"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>14.8</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Salvaged_Power_Armor_Helmet"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>26</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_General_Cap"]</xpath>
+		<value>
+			<statBases>
+				<Bulk>1.1</Bulk>
+				<WornBulk>0.5</WornBulk>
+			</statBases>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Ranger_Hat_Grey"]/statBases</xpath>
+		<value>
+			<Bulk>3</Bulk>
+			<WornBulk>1</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Ranger_Hat_Grey"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>0</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Ranger_Hat_Grey"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>0</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Ranger_Hat_Brown"]</xpath>
+		<value>
+			<statBases>
+				<Bulk>1.1</Bulk>
+				<WornBulk>0.5</WornBulk>
+			</statBases>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Ranger_Hat_Tan"]</xpath>
+		<value>
+			<statBases>
+				<Bulk>1.1</Bulk>
+				<WornBulk>0.5</WornBulk>
+			</statBases>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Ranger_Hat_Patrol"]</xpath>
+		<value>
+			<statBases>
+				<Bulk>1.1</Bulk>
+				<WornBulk>0.5</WornBulk>
+			</statBases>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Veteran_Ranger_Helmet"]/statBases</xpath>
+		<value>
+			<Bulk>8.8</Bulk>
+			<WornBulk>1</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Veteran_Ranger_Helmet"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>17.6</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Apparel_NCR_Veteran_Ranger_Helmet"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>31.2</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+</Patch>

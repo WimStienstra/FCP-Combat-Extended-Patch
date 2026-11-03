@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Unarmed_Boxing_Glove"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>fist</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>10</power>
+					<cooldownTime>1.2</cooldownTime>
+					<armorPenetration>0.10</armorPenetration>
+					<soundMeleeHit>FCP_Sound_Hit_PowerFist</soundMeleeHit>
+					<armorPenetrationBlunt>3.3</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Unarmed_Power_Fist"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>pneumatic fist</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>28</power>
+					<cooldownTime>1.8</cooldownTime>
+					<armorPenetration>0.40</armorPenetration>
+					<soundMeleeHit>FCP_Sound_Hit_PowerFist</soundMeleeHit>
+					<armorPenetrationBlunt>9.24</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Unarmed_Ballistic_Fist"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>explosive fist</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>35</power>
+					<cooldownTime>2.0</cooldownTime>
+					<armorPenetration>0.50</armorPenetration>
+					<soundMeleeHit>FCP_Sound_Hit_PowerFist</soundMeleeHit>
+					<armorPenetrationBlunt>11.55</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Unarmed_Displacer_Glove"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>displacer field</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>32</power>
+					<cooldownTime>1.6</cooldownTime>
+					<armorPenetration>0.60</armorPenetration>
+					<armorPenetrationBlunt>10.56</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Unarmed_Zap_Glove"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>electrified fist</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>18</power>
+					<cooldownTime>1.4</cooldownTime>
+					<armorPenetration>0.25</armorPenetration>
+					<soundMeleeHit>FCP_Sound_Hit_ZapGlove</soundMeleeHit>
+					<extraMeleeDamages><li><def>EMP</def><amount>10</amount></li></extraMeleeDamages>
+					<armorPenetrationBlunt>5.94</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FCP_Unarmed_Industrial_Fist"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>hydraulic fist</label>
+					<capacities><li>Blunt</li></capacities>
+					<power>25</power>
+					<cooldownTime>1.9</cooldownTime>
+					<armorPenetration>0.35</armorPenetration>
+					<armorPenetrationBlunt>8.25</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="FCP_Unarmed_Boxing_Glove"]/statBases</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="FCP_Unarmed_Boxing_Glove"]/statBases</xpath>
+			<value><Bulk>1</Bulk></value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="FCP_Unarmed_Boxing_Glove"]</xpath>
+			<value><statBases><Bulk>1</Bulk></statBases></value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="FCP_Unarmed_Power_Fist"]/statBases</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="FCP_Unarmed_Power_Fist"]/statBases</xpath>
+			<value><Bulk>6</Bulk></value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="FCP_Unarmed_Power_Fist"]</xpath>
+			<value><statBases><Bulk>6</Bulk></statBases></value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="FCP_Unarmed_Ballistic_Fist"]/statBases</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="FCP_Unarmed_Ballistic_Fist"]/statBases</xpath>
+			<value><Bulk>7.5</Bulk></value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="FCP_Unarmed_Ballistic_Fist"]</xpath>
+			<value><statBases><Bulk>7.5</Bulk></statBases></value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="FCP_Unarmed_Displacer_Glove"]/statBases</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="FCP_Unarmed_Displacer_Glove"]/statBases</xpath>
+			<value><Bulk>4.5</Bulk></value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="FCP_Unarmed_Displacer_Glove"]</xpath>
+			<value><statBases><Bulk>4.5</Bulk></statBases></value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="FCP_Unarmed_Zap_Glove"]/statBases</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="FCP_Unarmed_Zap_Glove"]/statBases</xpath>
+			<value><Bulk>2.25</Bulk></value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="FCP_Unarmed_Zap_Glove"]</xpath>
+			<value><statBases><Bulk>2.25</Bulk></statBases></value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="FCP_Unarmed_Industrial_Fist"]/statBases</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="FCP_Unarmed_Industrial_Fist"]/statBases</xpath>
+			<value><Bulk>6.75</Bulk></value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="FCP_Unarmed_Industrial_Fist"]</xpath>
+			<value><statBases><Bulk>6.75</Bulk></statBases></value>
+		</nomatch>
+	</Operation>
+
+</Patch>

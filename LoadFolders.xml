@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<loadFolders>
+	<v1.6>
+		<li IfModActive="Rick.FCP.Animals">Modules/FCP-Animals</li>
+		<li IfModActive="Rick.FCP.BallisticWeapons">Modules/FCP-Ballistic-Weapons</li>
+		<li IfModActive="Rick.FCP.BOS">Modules/FCP-Brotherhood-of-Steel</li>
+		<li IfModActive="Rick.FCP.Legion">Modules/FCP-Caesars-Legion</li>
+		<li IfModActive="Rick.FCP.COA">Modules/FCP-Children-of-Atom</li>
+		<li IfModActive="Rick.FCP.Enclave">Modules/FCP-Enclave</li>
+		<li IfModActive="Rick.FCP.EnergyWeapons">Modules/FCP-Energy-Weapons</li>
+		<li IfModActive="Rick.FCP.ExplosiveWeapons">Modules/FCP-Explosive-Weapons</li>
+		<li IfModActive="Rick.FCP.Followers">Modules/FCP-Followers-of-the-Apocalypse</li>
+		<li IfModActive="Rick.FCP.GreatKhans">Modules/FCP-Great-Khans</li>
+		<li IfModActive="Rick.FCP.MarkedMen">Modules/FCP-Marked-Men</li>
+		<li IfModActive="Rick.FCP.MeleeWeapons">Modules/FCP-Melee-Weapons</li>
+		<li IfModActive="Rick.FCP.NCR">Modules/FCP-NCR</li>
+		<li IfModActive="Rick.FCP.PowerArmor">Modules/FCP-Power-Armor</li>
+		<li IfModActive="Rick.FCP.Raiders">Modules/FCP-Raiders</li>
+		<li IfModActive="Rick.FCP.Core.Tools">Modules/FCP-Tools</li>
+		<li IfModActive="Rick.FCP.UnarmedWeapons">Modules/FCP-Unarmed-Weapons</li>
+		<li IfModActive="Rick.FCP.Wastelanders">Modules/FCP-Wastelanders</li>
+	</v1.6>
+</loadFolders>

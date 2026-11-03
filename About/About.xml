@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>FCP - Combat Extended Patch</name>
+	<author>Community patch</author>
+	<packageId>wim.fcp.combatextendedpatch</packageId>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<description>Combat Extended compatibility for the Fallout Collaboration Project (FCP) mods.
+
+Converts FCP weapons (ballistic, energy, explosive, melee), apparel/power armor and animals to Combat Extended. Phase 1 uses the ammo that ships with Combat Extended.
+
+Load order: Harmony, Core, DLCs, Combat Extended, all FCP mods, then this mod.</description>
+	<modDependencies>
+		<li>
+			<packageId>CETeam.CombatExtended</packageId>
+			<displayName>Combat Extended</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2890901044</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>Rick.FCP.Core.Tools</packageId>
+			<displayName>FCP - Tools</displayName>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>CETeam.CombatExtended</li>
+		<li>Rick.FCP.Core.Tools</li>
+		<li>Rick.FCP.Animals</li>
+		<li>Rick.FCP.BallisticWeapons</li>
+		<li>Rick.FCP.BOS</li>
+		<li>Rick.FCP.Legion</li>
+		<li>Rick.FCP.Chems</li>
+		<li>Rick.FCP.COA</li>
+		<li>Rick.FCP.Enclave</li>
+		<li>Rick.FCP.EnergyWeapons</li>
+		<li>Rick.FCP.ExplosiveWeapons</li>
+		<li>Rick.FCP.Followers</li>
+		<li>Rick.FCP.Ghouls</li>
+		<li>Rick.FCP.GreatKhans</li>
+		<li>Rick.FCP.Lore</li>
+		<li>Rick.FCP.MarkedMen</li>
+		<li>Rick.FCP.MeleeWeapons</li>
+		<li>Rick.FCP.NCR</li>
+		<li>Rick.FCP.NukaCola</li>
+		<li>Rick.FCP.Plants</li>
+		<li>Rick.FCP.PowerArmor</li>
+		<li>Rick.FCP.PreWarFood</li>
+		<li>Rick.FCP.Raiders</li>
+		<li>Rick.FCP.Slavers</li>
+		<li>Rick.FCP.UnarmedWeapons</li>
+		<li>Rick.FCP.WastelandFood</li>
+		<li>Rick.FCP.Wastelanders</li>
+	</loadAfter>
+</ModMetaData>
